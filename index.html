@@ -136,8 +136,18 @@
     <div class="railsec railsearch">
       <h2>Or search directly</h2>
       <input id="q" type="text" placeholder="keywords, e.g. vitamin D depression"
-             onkeydown="if(event.key==='Enter')search(false)">
-      <button id="goBtn" onclick="search(false)">Search the literature</button>
+             onkeydown="if(event.key==='Enter')search()">
+      <button id="goBtn" onclick="search()">Search the literature</button>
+    </div>
+
+    <div class="railsec">
+      <h2>Sort results by</h2>
+      <select id="sortSel" onchange="onSort()">
+        <option value="relevance">Relevance</option>
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="cited">Most cited</option>
+      </select>
     </div>
 
     <p class="railnote"><b>Open access first.</b> Analysis uses only freely available papers. Paywalled results are flagged for reference; Scopus, Web of Science and Embase may extend coverage but are never required.</p>
@@ -323,8 +333,9 @@ const HINTS = {
 const TITLES = {field:"Biomedical literature", general:"Scholarly literature — all disciplines"};
 
 // ---------- source calls (run in visitor's browser; both allow CORS) ----------
-async function openalex(query, tab, recent){
-  const sort = recent ? "&sort=publication_year:desc" : "";
+async function openalex(query, tab, order){
+  const sort = order==="newest" ? "&sort=publication_year:desc"
+             : order==="oldest" ? "&sort=publication_year:asc" : "";
   const url = `https://api.openalex.org/works?search=${encodeURIComponent(query)}`
             + `&per-page=50${sort}&mailto=${CONTACT}`;
   const d = await (await fetch(url)).json();
@@ -401,7 +412,12 @@ function onSub(){
   const f=document.getElementById("fieldSel").value,s=document.getElementById("subSel").value;
   if(!f||!s)return;
   document.getElementById("q").value=TOPICS[TAB][f][s];
-  search(true); // topic browse => newest first
+  document.getElementById("sortSel").value="newest"; // browsing a topic => stay current
+  search();
+}
+
+function onSort(){
+  if(CURRENT.length) renderList(CURRENT); // re-sort without re-querying
 }
 
 function setTab(t){
@@ -414,9 +430,11 @@ function setTab(t){
 }
 
 // ---------- search ----------
-async function search(recent){
+async function search(){
   const q=document.getElementById("q").value.trim();
   if(!q)return;
+  const mode=document.getElementById("sortSel").value;
+  const order=(mode==="newest"||mode==="oldest")?mode:null; // pass date order to API
   const btn=document.getElementById("goBtn");
   btn.disabled=true;btn.textContent="Searching…";
   document.getElementById("results").innerHTML='<div class="empty"><span class="spin"></span>Querying the scholarly record…</div>';
@@ -425,23 +443,36 @@ async function search(recent){
   try{
     let raw=[];
     if(TAB==="field"){
-      const [a,b]=await Promise.all([openalex(q,"field",recent).catch(()=>[]),europepmc(q).catch(()=>[])]);
+      const [a,b]=await Promise.all([openalex(q,"field",order).catch(()=>[]),europepmc(q).catch(()=>[])]);
       raw=[...a,...b];
-    }else raw=await openalex(q,"general",recent).catch(()=>[]);
+    }else raw=await openalex(q,"general",order).catch(()=>[]);
+    raw.forEach((p,i)=>p._rank=i); // preserve API relevance order
     CURRENT=dedupe(raw);
-    renderList(CURRENT,recent);
+    renderList(CURRENT);
   }catch(e){
     document.getElementById("results").innerHTML=
       `<div class="empty">Search could not complete: ${e.message}. The public APIs may be rate-limiting — wait a moment and retry.</div>`;
   }finally{btn.disabled=false;btn.textContent="Search the literature";}
 }
 
-function renderList(papers,recent){
-  if(recent)papers.sort((a,b)=>(b.year||0)-(a.year||0));
+// ---------- sorting ----------
+const SORT_LABEL={relevance:"by relevance",newest:"newest first",oldest:"oldest first",cited:"most cited"};
+function applySort(papers){
+  const mode=document.getElementById("sortSel").value;
+  const p=papers.slice();
+  if(mode==="newest")      p.sort((a,b)=>(b.year||0)-(a.year||0));
+  else if(mode==="oldest") p.sort((a,b)=>(a.year||9999)-(b.year||9999));
+  else if(mode==="cited")  p.sort((a,b)=>(b.cited_by||0)-(a.cited_by||0));
+  else                     p.sort((a,b)=>(a._rank||0)-(b._rank||0)); // relevance
+  return p;
+}
+
+function renderList(papers){
   const oa=papers.filter(p=>p.is_oa).length,paid=papers.length-oa;
+  const sortMode=document.getElementById("sortSel").value;
   document.getElementById("resultbar").style.display=papers.length?"flex":"none";
   document.getElementById("rescount").innerHTML=
-    `${papers.length} papers <span>· ${oa} open access · ${paid} paywalled${recent?" · newest first":" · by citations"}</span>`;
+    `${papers.length} papers <span>· ${oa} open access · ${paid} paywalled · ${SORT_LABEL[sortMode]}</span>`;
   const pn=document.getElementById("paidnote");
   if(paid){pn.classList.add("show");
     pn.textContent=`${paid} results are paywalled and excluded from analysis. Scopus, Web of Science or Embase may add coverage in this field.`;}
@@ -449,7 +480,7 @@ function renderList(papers,recent){
 
   const box=document.getElementById("results");
   if(!papers.length){box.innerHTML='<div class="empty">No results. Try broader terms.</div>';return;}
-  const ordered=recent?papers:papers.slice().sort((a,b)=>(b.cited_by||0)-(a.cited_by||0));
+  const ordered=applySort(papers);
   box.innerHTML=ordered.map((p,i)=>{
     const link=p.oa_url||(p.doi?`https://doi.org/${p.doi}`:"#");
     const badge=p.is_oa?'<span class="badge oa">Open</span>':'<span class="badge paid">Paywalled</span>';
