@@ -4,129 +4,169 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meta-Research Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#12151c; --paper:#f7f5f0; --line:#d7d2c6;
-    --field:#2f6f6a; --general:#5a4a8a; --oa:#2f8f4e; --paid:#b5651d;
+    --ink:#1a2233; --slate:#3a4a63; --mute:#6b7688;
+    --paper:#f4f2ec; --panel:#fbfaf7; --rail:#1f2a3d;
+    --line:#d9d5ca; 
+    --field:#1f6f6a; --general:#4a5aa0;
+    --oa:#2f7d4e; --paid:#a8611c; --accent:#8a2d2d;
   }
   *{box-sizing:border-box}
-  body{margin:0;font-family:"IBM Plex Sans",-apple-system,system-ui,sans-serif;
-       background:var(--paper);color:var(--ink);line-height:1.5}
-  header{padding:28px 20px 0;max-width:1000px;margin:0 auto}
-  h1{font-family:"IBM Plex Serif",Georgia,serif;font-size:1.9rem;margin:0 0 2px;
-     letter-spacing:-.02em}
-  .sub{color:#5c5850;font-size:.9rem;margin:0 0 18px}
-  .tabs{display:flex;gap:2px;max-width:1000px;margin:0 auto;padding:0 20px}
-  .tab{flex:1;padding:12px;text-align:center;cursor:pointer;font-weight:600;
-       font-size:.9rem;border:1px solid var(--line);border-bottom:none;
-       background:#efece4;border-radius:8px 8px 0 0;user-select:none}
-  .tab[data-active="true"][data-tab="field"]{background:#fff;color:var(--field);
-       box-shadow:inset 0 3px 0 var(--field)}
-  .tab[data-active="true"][data-tab="general"]{background:#fff;color:var(--general);
-       box-shadow:inset 0 3px 0 var(--general)}
-  main{max-width:1000px;margin:0 auto;padding:20px;background:#fff;
-       border:1px solid var(--line);border-radius:0 0 8px 8px;min-height:60vh}
-  .browse{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:2px 0 10px}
-  .browse-label{font-size:.85rem;font-weight:600;color:#4a463f}
-  .browse select{padding:9px 11px;border:1px solid var(--line);border-radius:7px;
-       font-size:.88rem;background:#fff;max-width:100%}
-  .browse select:disabled{opacity:.5}
-  .browse-hint{font-size:.75rem;color:#8a857b;font-style:italic}
-  .or{font-size:.75rem;color:#a8a297;text-transform:uppercase;letter-spacing:.08em;
-       margin:0 0 8px}
-  .searchbar{display:flex;gap:8px;margin-bottom:6px}
-  input[type=text]{flex:1;padding:11px 13px;border:1px solid var(--line);
-       border-radius:7px;font-size:.95rem}
-  .hint{font-size:.8rem;color:#7a756c;margin:0 0 14px}
-  .modeswitch{display:flex;gap:14px;font-size:.8rem;margin:0 0 14px;color:#6b665d}
-  .modeswitch label{cursor:pointer}
-  .stats{display:flex;gap:18px;flex-wrap:wrap;font-size:.82rem;margin:14px 0;
-       padding:12px;background:#faf8f3;border:1px solid var(--line);border-radius:7px}
-  .stats b{font-size:1.1rem}
-  .paidnote{color:var(--paid);font-size:.82rem;border-left:3px solid var(--paid);
-       padding:6px 10px;margin:0 0 16px;background:#fdf6ee;display:none}
+  html,body{margin:0;height:100%}
+  body{font-family:"Inter",-apple-system,system-ui,sans-serif;color:var(--ink);
+       background:var(--paper);line-height:1.55}
+  .serif{font-family:"Spectral",Georgia,serif}
+
+  /* ---- shell: two columns ---- */
+  .shell{display:grid;grid-template-columns:340px 1fr;min-height:100vh}
+  @media(max-width:820px){.shell{grid-template-columns:1fr}}
+
+  /* ---- left rail ---- */
+  .rail{background:var(--rail);color:#e8e6df;padding:26px 22px;
+        border-right:1px solid #0e1626;position:sticky;top:0;height:100vh;
+        overflow-y:auto}
+  @media(max-width:820px){.rail{position:static;height:auto}}
+  .brand{font-family:"Spectral",serif;font-size:1.45rem;font-weight:700;
+         letter-spacing:-.01em;line-height:1.15;margin:0 0 3px}
+  .brand .mark{color:#c9a24b}
+  .tagline{font-size:.76rem;color:#9aa4b6;margin:0 0 22px;font-style:italic}
+  .crest{width:34px;height:34px;border:1.5px solid #c9a24b;border-radius:50%;
+         display:flex;align-items:center;justify-content:center;margin-bottom:14px;
+         font-family:"Spectral",serif;color:#c9a24b;font-weight:700;font-size:1rem}
+  .railsec{margin:0 0 20px}
+  .railsec h2{font-size:.7rem;text-transform:uppercase;letter-spacing:.13em;
+              color:#8a94a8;font-weight:600;margin:0 0 9px;
+              border-bottom:1px solid #33405a;padding-bottom:6px}
+  .segtabs{display:flex;gap:0;border:1px solid #3a4863;border-radius:7px;overflow:hidden}
+  .segtabs button{flex:1;padding:9px 6px;background:#26324a;color:#b9c2d4;border:none;
+                  font-family:inherit;font-size:.76rem;font-weight:600;cursor:pointer;
+                  line-height:1.2}
+  .segtabs button[data-active="true"]{background:#c9a24b;color:#1f2a3d}
+  label.fld{display:block;font-size:.72rem;color:#9aa4b6;margin:0 0 5px;font-weight:500}
+  select,.railsearch input{width:100%;padding:9px 10px;border-radius:6px;
+       border:1px solid #3a4863;background:#26324a;color:#e8e6df;font-family:inherit;
+       font-size:.82rem;margin-bottom:11px}
+  select:disabled{opacity:.45}
+  select option{color:#1a2233}
+  .railsearch{margin-top:2px}
+  .railsearch button{width:100%;padding:10px;border:none;border-radius:6px;
+       background:#c9a24b;color:#1f2a3d;font-family:inherit;font-weight:700;
+       font-size:.84rem;cursor:pointer;letter-spacing:.02em}
+  .railsearch button:disabled{opacity:.5;cursor:wait}
+  .railnote{font-size:.72rem;color:#7f8a9e;line-height:1.5;margin:14px 0 0;
+            padding-top:14px;border-top:1px solid #33405a}
+  .railnote b{color:#aab3c5}
+
+  /* ---- right results pane ---- */
+  .pane{padding:30px 34px 60px;max-width:920px}
+  @media(max-width:820px){.pane{padding:22px 18px 50px}}
+  .panehead{border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+  .panetitle{font-family:"Spectral",serif;font-size:1.7rem;font-weight:600;margin:0;
+             letter-spacing:-.01em}
+  .panesub{font-size:.83rem;color:var(--mute);margin:4px 0 0}
+  .tabhint{font-size:.8rem;color:var(--slate);font-style:italic;margin:12px 0 0;
+           padding:9px 13px;background:var(--panel);border-left:3px solid var(--field);
+           border-radius:0 5px 5px 0}
+  .tabhint.general{border-left-color:var(--general)}
+
+  .resultbar{display:flex;align-items:baseline;justify-content:space-between;
+             flex-wrap:wrap;gap:10px;margin:22px 0 4px}
+  .rescount{font-family:"Spectral",serif;font-size:1.05rem;font-weight:600}
+  .rescount span{color:var(--mute);font-weight:400;font-size:.85rem;font-family:"Inter"}
+  .csvbtn{font-size:.78rem;color:var(--general);cursor:pointer;background:none;
+          border:none;padding:0;text-decoration:underline;font-family:inherit}
+  .paidnote{color:var(--paid);font-size:.79rem;border-left:3px solid var(--paid);
+       padding:7px 11px;margin:10px 0 0;background:#fbf3e9;display:none;border-radius:0 4px 4px 0}
   .paidnote.show{display:block}
-  .paper{padding:13px 0;border-bottom:1px solid #eee}
-  .paper h3{margin:0 0 4px;font-size:1rem;font-weight:600}
+
+  .paper{padding:16px 0;border-bottom:1px solid #e4e0d6}
+  .paper h3{margin:0 0 5px;font-family:"Spectral",serif;font-size:1.06rem;
+            font-weight:600;line-height:1.3}
   .paper h3 a{color:var(--ink);text-decoration:none}
-  .paper h3 a:hover{text-decoration:underline}
-  .meta{font-size:.8rem;color:#6b665d;display:flex;gap:10px;flex-wrap:wrap;
-       align-items:center}
-  .badge{font-size:.68rem;padding:2px 7px;border-radius:20px;font-weight:700;
-       text-transform:uppercase;letter-spacing:.03em}
-  .badge.oa{background:#e3f3e8;color:var(--oa)}
-  .badge.paid{background:#fbeede;color:var(--paid)}
-  .abstract{font-size:.85rem;color:#4a463f;margin-top:6px;display:none}
+  .paper h3 a:hover{color:var(--accent);text-decoration:underline}
+  .meta{font-size:.77rem;color:var(--mute);display:flex;gap:12px;flex-wrap:wrap;
+        align-items:center}
+  .meta .yr{font-weight:600;color:var(--slate)}
+  .badge{font-size:.63rem;padding:2px 7px;border-radius:3px;font-weight:700;
+         text-transform:uppercase;letter-spacing:.05em}
+  .badge.oa{background:#e3f1e8;color:var(--oa);border:1px solid #bfe0cb}
+  .badge.paid{background:#f7ecdd;color:var(--paid);border:1px solid #e6cfae}
+  .abstract{font-size:.85rem;color:#3f4657;margin-top:8px;display:none;
+            padding-left:13px;border-left:2px solid var(--line);line-height:1.6}
   .paper.open .abstract{display:block}
-  .analysis img{max-width:100%;border:1px solid var(--line);border-radius:7px;margin:10px 0}
-  .kv{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;font-size:.86rem;margin:10px 0}
-  .kv dt{font-weight:600}
-  .flag{padding:8px 11px;border-radius:6px;font-size:.85rem;margin:8px 0}
-  .flag.warn{background:#fdeeee;border-left:3px solid #c0392b}
-  .flag.ok{background:#eef7f0;border-left:3px solid var(--oa)}
-  button.go{padding:11px 18px;border:none;border-radius:7px;background:var(--ink);
-       color:#fff;font-weight:600;cursor:pointer}
-  button.go:disabled{opacity:.5;cursor:wait}
-  .empty{color:#8a857b;padding:40px 0;text-align:center}
-  .switch{font-size:.82rem;color:#5a4a8a;cursor:pointer;text-decoration:underline;
-       background:none;border:none;padding:0}
-  .csvbtn{margin:10px 0;font-size:.82rem}
-  .spin{display:inline-block;width:14px;height:14px;border:2px solid #ccc;
-       border-top-color:var(--ink);border-radius:50%;animation:s .7s linear infinite;
-       vertical-align:-2px;margin-right:6px}
+  .switch{font-size:.77rem;color:var(--general);cursor:pointer;background:none;
+          border:none;padding:0;font-family:inherit}
+  .empty{color:var(--mute);padding:52px 20px;text-align:center;font-style:italic;
+         font-family:"Spectral",serif;font-size:1rem}
+  .spin{display:inline-block;width:15px;height:15px;border:2px solid #cfcabd;
+        border-top-color:var(--slate);border-radius:50%;animation:s .7s linear infinite;
+        vertical-align:-3px;margin-right:7px}
   @keyframes s{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
-<header>
-  <h1>Meta-Research Console</h1>
-  <p class="sub">Search free public papers live, then pool the evidence. Open-access first; paid sources flagged, never required.</p>
-</header>
+<div class="shell">
 
-<div class="tabs">
-  <div class="tab" data-tab="field" data-active="true" onclick="setTab('field')">Field-specific · biomedical</div>
-  <div class="tab" data-tab="general" data-active="false" onclick="setTab('general')">General · all disciplines</div>
+  <!-- LEFT RAIL: search controls -->
+  <aside class="rail">
+    <div class="crest serif">MR</div>
+    <div class="brand serif">Meta-Research<br><span class="mark">Console</span></div>
+    <p class="tagline">Evidence synthesis from the open scholarly record</p>
+
+    <div class="railsec">
+      <h2>Collection</h2>
+      <div class="segtabs">
+        <button data-tab="field" data-active="true" onclick="setTab('field')">Biomedical</button>
+        <button data-tab="general" data-active="false" onclick="setTab('general')">All disciplines</button>
+      </div>
+    </div>
+
+    <div class="railsec">
+      <h2>Browse by topic</h2>
+      <label class="fld" for="fieldSel">Field</label>
+      <select id="fieldSel" onchange="onField()"><option value="">Choose a field…</option></select>
+      <label class="fld" for="subSel">Subtopic</label>
+      <select id="subSel" onchange="onSub()" disabled><option value="">Choose a subtopic…</option></select>
+    </div>
+
+    <div class="railsec railsearch">
+      <h2>Or search directly</h2>
+      <input id="q" type="text" placeholder="keywords, e.g. vitamin D depression"
+             onkeydown="if(event.key==='Enter')search(false)">
+      <button id="goBtn" onclick="search(false)">Search the literature</button>
+    </div>
+
+    <p class="railnote"><b>Open access first.</b> Analysis uses only freely available papers. Paywalled results are flagged for reference; Scopus, Web of Science and Embase may extend coverage but are never required.</p>
+  </aside>
+
+  <!-- RIGHT PANE: results -->
+  <main class="pane">
+    <div class="panehead">
+      <h1 class="panetitle serif" id="paneTitle">Biomedical literature</h1>
+      <p class="panesub">Search free public papers, then export a citation set for meta-analysis.</p>
+    </div>
+    <p class="tabhint" id="tabhint"></p>
+
+    <div class="resultbar" id="resultbar" style="display:none">
+      <div class="rescount" id="rescount"></div>
+      <button class="csvbtn" id="csvBtn" onclick="exportCsv()">⬇ Export results as CSV</button>
+    </div>
+    <div class="paidnote" id="paidnote"></div>
+
+    <div id="results">
+      <div class="empty">Choose a topic or enter keywords to query the scholarly record.</div>
+    </div>
+  </main>
+
 </div>
-
-<main>
-  <div class="modeswitch">
-    <label><input type="radio" name="mode" value="live" checked onchange="setMode('live')"> Live search (query the APIs now)</label>
-    <label><input type="radio" name="mode" value="curated" onchange="setMode('curated')"> Curated set (owner's pre-run results + analysis)</label>
-  </div>
-
-  <div class="browse" id="browseRow">
-    <span class="browse-label">Browse topics:</span>
-    <select id="fieldSel" onchange="onField()"><option value="">Choose a field…</option></select>
-    <select id="subSel" onchange="onSub()" disabled><option value="">Choose a subtopic…</option></select>
-    <span class="browse-hint">newest research first</span>
-  </div>
-  <div class="or">or search yourself</div>
-
-  <div class="searchbar">
-    <input id="q" type="text" placeholder="e.g. vitamin D depression randomized trial"
-           onkeydown="if(event.key==='Enter')search()">
-    <button class="go" id="goBtn" onclick="search()">Search</button>
-  </div>
-  <p class="hint" id="tabhint"></p>
-
-  <div id="paidnote" class="paidnote"></div>
-  <div class="stats" id="stats" style="display:none"></div>
-
-  <div id="curatedTools" style="display:none">
-    <button class="switch" id="anBtn" onclick="toggleAnalysis()">Show pooled meta-analysis ▸</button>
-    <section id="analysis" class="analysis" style="display:none"></section>
-  </div>
-
-  <button class="switch csvbtn" id="csvBtn" style="display:none" onclick="exportCsv()">⬇ Export results as CSV (for meta-analysis)</button>
-
-  <div id="results"><div class="empty">Type a query and hit Search to pull live results from OpenAlex and Europe PMC.</div></div>
-</main>
 
 <script>
 const CONTACT = "you@example.com"; // OpenAlex polite pool
 
-// Curated topic map for non-researchers: field -> subtopics -> search string.
-// Edit freely; these just pre-fill the live search with good query terms.
 const TOPICS = {
   field: {
     "Cardiology": {
@@ -273,31 +313,27 @@ const TOPICS = {
   }
 };
 
-let TAB = "field", MODE = "live";
-let CURATED = null, META = null;
-let CURRENT = []; // currently displayed papers (for CSV export)
+let TAB = "field";
+let CURRENT = [];
 
 const HINTS = {
-  field: "Biomedical sources (Europe PMC + PubMed-indexed via OpenAlex). Effect sizes are extractable here, so this tab supports quantitative pooling.",
-  general: "All disciplines (OpenAlex). Best for citation mapping, clustering and trend detection. Pooled statistics apply only when results are experimental."
+  field: "Biomedical sources (Europe PMC + PubMed-indexed via OpenAlex). Effect sizes are extractable here, so this collection supports quantitative pooling.",
+  general: "All disciplines (OpenAlex). Best for citation mapping, clustering and trend detection; pooled statistics apply only when results are experimental."
 };
+const TITLES = {field:"Biomedical literature", general:"Scholarly literature — all disciplines"};
 
-// ---------- source calls (run in the visitor's browser; both allow CORS) ----------
+// ---------- source calls (run in visitor's browser; both allow CORS) ----------
 async function openalex(query, tab, recent){
   const sort = recent ? "&sort=publication_year:desc" : "";
   const url = `https://api.openalex.org/works?search=${encodeURIComponent(query)}`
             + `&per-page=50${sort}&mailto=${CONTACT}`;
   const d = await (await fetch(url)).json();
   return (d.results||[]).map(w=>{
-    const oa = w.open_access||{};
-    const doi = (w.doi||"").replace("https://doi.org/","")||null;
-    return {
-      source_db:"openalex", tab,
-      doi, title:w.display_name, year:w.publication_year,
+    const oa=w.open_access||{}; const doi=(w.doi||"").replace("https://doi.org/","")||null;
+    return {source_db:"openalex",tab,doi,title:w.display_name,year:w.publication_year,
       venue:((w.primary_location||{}).source||{}).display_name,
-      cited_by:w.cited_by_count||0, is_oa:!!oa.is_oa, oa_url:oa.oa_url,
-      abstract:invAbstract(w.abstract_inverted_index), is_paid_hint:!oa.is_oa
-    };
+      cited_by:w.cited_by_count||0,is_oa:!!oa.is_oa,oa_url:oa.oa_url,
+      abstract:invAbstract(w.abstract_inverted_index),is_paid_hint:!oa.is_oa};
   });
 }
 function invAbstract(inv){
@@ -306,158 +342,131 @@ function invAbstract(inv){
   return Object.keys(pos).map(Number).sort((a,b)=>a-b).map(i=>pos[i]).join(" ")||null;
 }
 async function europepmc(query){
-  const url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
-            + `?query=${encodeURIComponent(query)}&format=json&pageSize=50&resultType=core`;
-  const d = await (await fetch(url)).json();
+  const url="https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+          + `?query=${encodeURIComponent(query)}&format=json&pageSize=50&resultType=core`;
+  const d=await (await fetch(url)).json();
   return ((d.resultList||{}).result||[]).map(r=>{
-    const oa = r.isOpenAccess==="Y";
-    return {
-      source_db:"europepmc", tab:"field",
-      doi:r.doi||null, title:r.title,
-      year:/^\d+$/.test(r.pubYear||"")?+r.pubYear:null,
-      venue:r.journalTitle, cited_by:r.citedByCount||0,
-      is_oa:oa, oa_url:null, abstract:r.abstractText, is_paid_hint:!oa
-    };
+    const oa=r.isOpenAccess==="Y";
+    return {source_db:"europepmc",tab:"field",doi:r.doi||null,title:r.title,
+      year:/^\d+$/.test(r.pubYear||"")?+r.pubYear:null,venue:r.journalTitle,
+      cited_by:r.citedByCount||0,is_oa:oa,oa_url:null,abstract:r.abstractText,is_paid_hint:!oa};
   });
 }
 
-// ---------- dedup (DOI, then fuzzy title+year) ----------
+// ---------- dedup ----------
 function norm(t){return (t||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();}
-function ratio(a,b){ // Dice bigram similarity
+function ratio(a,b){
   const bg=s=>{const m={};for(let i=0;i<s.length-1;i++){const g=s.substr(i,2);m[g]=(m[g]||0)+1;}return m;};
-  const A=bg(a),B=bg(b); let inter=0,tot=0;
-  for(const g in A){tot+=A[g]; if(B[g])inter+=Math.min(A[g],B[g]);}
+  const A=bg(a),B=bg(b);let inter=0,tot=0;
+  for(const g in A){tot+=A[g];if(B[g])inter+=Math.min(A[g],B[g]);}
   for(const g in B)tot+=B[g];
   return tot?2*inter/tot:0;
 }
 function dedupe(papers){
-  const kept=[], byDoi={};
+  const kept=[],byDoi={};
   for(const p of papers){
     const doi=(p.doi||"").toLowerCase().trim()||null;
     if(doi&&byDoi[doi]!=null){merge(kept[byDoi[doi]],p);continue;}
-    let hit=-1; const nt=norm(p.title);
-    if(nt) for(let i=0;i<kept.length;i++){
-      if(Math.abs((p.year||0)-(kept[i].year||0))<=1 && ratio(nt,norm(kept[i].title))>0.9){hit=i;break;}
-    }
-    if(hit>=0) merge(kept[hit],p);
-    else {if(doi)byDoi[doi]=kept.length; kept.push({...p,also_in:[]});}
+    let hit=-1;const nt=norm(p.title);
+    if(nt)for(let i=0;i<kept.length;i++){
+      if(Math.abs((p.year||0)-(kept[i].year||0))<=1&&ratio(nt,norm(kept[i].title))>0.9){hit=i;break;}}
+    if(hit>=0)merge(kept[hit],p);
+    else{if(doi)byDoi[doi]=kept.length;kept.push({...p,also_in:[]});}
   }
   return kept;
 }
 function merge(base,o){
-  if(o.source_db!==base.source_db && !base.also_in.includes(o.source_db)) base.also_in.push(o.source_db);
-  if(!base.abstract&&o.abstract) base.abstract=o.abstract;
-  if(!base.doi&&o.doi) base.doi=o.doi;
-  base.is_oa=base.is_oa||o.is_oa; base.is_paid_hint=base.is_oa?false:base.is_paid_hint;
-}
-
-// ---------- UI ----------
-function setTab(t){TAB=t;document.querySelectorAll(".tab").forEach(el=>el.dataset.active=(el.dataset.tab===t));
-  document.getElementById("tabhint").textContent=HINTS[t];
-  fillFields();
-  if(MODE==="curated") renderCurated(); }
-function setMode(m){
-  MODE=m;
-  document.getElementById("curatedTools").style.display = m==="curated"?"block":"none";
-  document.getElementById("browseRow").style.display = m==="live"?"flex":"none";
-  document.querySelector(".or").style.display = m==="live"?"block":"none";
-  document.getElementById("q").placeholder = m==="live"
-    ? "e.g. vitamin D depression randomized trial"
-    : "Filter the owner's curated papers…";
-  if(m==="curated"){ loadCurated().then(renderCurated); }
-  else { CURRENT=[]; document.getElementById("results").innerHTML=
-    '<div class="empty">Type a query and hit Search to pull live results.</div>';
-    document.getElementById("stats").style.display="none";
-    document.getElementById("csvBtn").style.display="none";
-    document.getElementById("paidnote").classList.remove("show"); }
+  if(o.source_db!==base.source_db&&!base.also_in.includes(o.source_db))base.also_in.push(o.source_db);
+  if(!base.abstract&&o.abstract)base.abstract=o.abstract;
+  if(!base.doi&&o.doi)base.doi=o.doi;
+  base.is_oa=base.is_oa||o.is_oa;base.is_paid_hint=base.is_oa?false:base.is_paid_hint;
 }
 
 // ---------- topic dropdowns ----------
-let BROWSING=false; // true when a search came from the dropdowns (sort newest-first)
-
 function fillFields(){
   const fs=document.getElementById("fieldSel");
   fs.innerHTML='<option value="">Choose a field…</option>'
     +Object.keys(TOPICS[TAB]).map(f=>`<option value="${f}">${f}</option>`).join("");
   const ss=document.getElementById("subSel");
-  ss.innerHTML='<option value="">Choose a subtopic…</option>'; ss.disabled=true;
+  ss.innerHTML='<option value="">Choose a subtopic…</option>';ss.disabled=true;
 }
 function onField(){
-  const f=document.getElementById("fieldSel").value;
-  const ss=document.getElementById("subSel");
+  const f=document.getElementById("fieldSel").value,ss=document.getElementById("subSel");
   if(!f){ss.innerHTML='<option value="">Choose a subtopic…</option>';ss.disabled=true;return;}
   ss.disabled=false;
   ss.innerHTML='<option value="">Choose a subtopic…</option>'
     +Object.keys(TOPICS[TAB][f]).map(s=>`<option value="${s}">${s}</option>`).join("");
 }
 function onSub(){
-  const f=document.getElementById("fieldSel").value;
-  const s=document.getElementById("subSel").value;
-  if(!f||!s) return;
-  const query=TOPICS[TAB][f][s];
-  document.getElementById("q").value=query;
-  BROWSING=true;
-  search();
+  const f=document.getElementById("fieldSel").value,s=document.getElementById("subSel").value;
+  if(!f||!s)return;
+  document.getElementById("q").value=TOPICS[TAB][f][s];
+  search(true); // topic browse => newest first
 }
 
-async function search(){
-  if(MODE==="curated"){ renderCurated(); return; }
+function setTab(t){
+  TAB=t;
+  document.querySelectorAll(".segtabs button").forEach(el=>el.dataset.active=(el.dataset.tab===t));
+  document.getElementById("paneTitle").textContent=TITLES[t];
+  const h=document.getElementById("tabhint");h.textContent=HINTS[t];
+  h.className="tabhint"+(t==="general"?" general":"");
+  fillFields();
+}
+
+// ---------- search ----------
+async function search(recent){
   const q=document.getElementById("q").value.trim();
-  if(!q) return;
-  const recent=BROWSING; BROWSING=false; // one-shot: manual searches stay citation-ranked
+  if(!q)return;
   const btn=document.getElementById("goBtn");
-  btn.disabled=true; btn.textContent="Searching…";
-  document.getElementById("results").innerHTML='<div class="empty"><span class="spin"></span>Querying live sources…</div>';
+  btn.disabled=true;btn.textContent="Searching…";
+  document.getElementById("results").innerHTML='<div class="empty"><span class="spin"></span>Querying the scholarly record…</div>';
+  document.getElementById("resultbar").style.display="none";
+  document.getElementById("paidnote").classList.remove("show");
   try{
     let raw=[];
     if(TAB==="field"){
-      const [a,b]=await Promise.all([openalex(q,"field",recent).catch(()=>[]), europepmc(q).catch(()=>[])]);
+      const [a,b]=await Promise.all([openalex(q,"field",recent).catch(()=>[]),europepmc(q).catch(()=>[])]);
       raw=[...a,...b];
-    } else {
-      raw=await openalex(q,"general",recent).catch(()=>[]);
-    }
+    }else raw=await openalex(q,"general",recent).catch(()=>[]);
     CURRENT=dedupe(raw);
-    renderList(CURRENT, recent);
+    renderList(CURRENT,recent);
   }catch(e){
     document.getElementById("results").innerHTML=
-      `<div class="empty">Search failed: ${e.message}. The public APIs may be rate-limiting — wait a moment and retry.</div>`;
-  }finally{ btn.disabled=false; btn.textContent="Search"; }
+      `<div class="empty">Search could not complete: ${e.message}. The public APIs may be rate-limiting — wait a moment and retry.</div>`;
+  }finally{btn.disabled=false;btn.textContent="Search the literature";}
 }
 
-function renderList(papers, recent){
-  if(recent) papers.sort((a,b)=>(b.year||0)-(a.year||0));
-  const oa=papers.filter(p=>p.is_oa).length, paid=papers.length-oa;
-  const st=document.getElementById("stats");
-  st.style.display="flex";
-  st.innerHTML=`<span><b>${papers.length}</b> papers</span>
-    <span><b>${oa}</b> open access</span>
-    <span><b>${paid}</b> closed/paid (listed only)</span>`;
+function renderList(papers,recent){
+  if(recent)papers.sort((a,b)=>(b.year||0)-(a.year||0));
+  const oa=papers.filter(p=>p.is_oa).length,paid=papers.length-oa;
+  document.getElementById("resultbar").style.display=papers.length?"flex":"none";
+  document.getElementById("rescount").innerHTML=
+    `${papers.length} papers <span>· ${oa} open access · ${paid} paywalled${recent?" · newest first":" · by citations"}</span>`;
   const pn=document.getElementById("paidnote");
   if(paid){pn.classList.add("show");
-    pn.textContent=`${paid} results are paywalled and excluded from analysis. Scopus / Web of Science / Embase may add coverage in this field.`;}
+    pn.textContent=`${paid} results are paywalled and excluded from analysis. Scopus, Web of Science or Embase may add coverage in this field.`;}
   else pn.classList.remove("show");
-  document.getElementById("csvBtn").style.display = papers.length?"block":"none";
 
   const box=document.getElementById("results");
   if(!papers.length){box.innerHTML='<div class="empty">No results. Try broader terms.</div>';return;}
-  const ordered = recent ? papers : papers.slice().sort((a,b)=>(b.cited_by||0)-(a.cited_by||0));
+  const ordered=recent?papers:papers.slice().sort((a,b)=>(b.cited_by||0)-(a.cited_by||0));
   box.innerHTML=ordered.map((p,i)=>{
     const link=p.oa_url||(p.doi?`https://doi.org/${p.doi}`:"#");
-    const badge=p.is_oa?'<span class="badge oa">open</span>':'<span class="badge paid">paid</span>';
-    return `<div class="paper" id="p${i}">
+    const badge=p.is_oa?'<span class="badge oa">Open</span>':'<span class="badge paid">Paywalled</span>';
+    return `<article class="paper" id="p${i}">
       <h3><a href="${link}" target="_blank" rel="noopener">${p.title||"Untitled"}</a></h3>
-      <div class="meta">${badge}<span>${p.year||"—"}</span><span>${p.venue||""}</span>
-        <span>cited ${p.cited_by||0}×</span>
+      <div class="meta">${badge}<span class="yr">${p.year||"—"}</span>
+        <span>${p.venue||""}</span><span>cited ${p.cited_by||0}×</span>
         <span>${p.source_db}${p.also_in&&p.also_in.length?" +"+p.also_in.join(","):""}</span>
-        ${p.abstract?`<button class="switch" onclick="document.getElementById('p${i}').classList.toggle('open')">abstract</button>`:""}
+        ${p.abstract?`<button class="switch" onclick="document.getElementById('p${i}').classList.toggle('open')">Show abstract</button>`:""}
       </div>
       ${p.abstract?`<div class="abstract">${p.abstract}</div>`:""}
-    </div>`;
+    </article>`;
   }).join("");
 }
 
 function exportCsv(){
-  if(!CURRENT.length) return;
+  if(!CURRENT.length)return;
   const esc=s=>`"${(s||"").toString().replace(/"/g,'""')}"`;
   const rows=[["study","year","doi","title","open_access","cited_by","venue","effect","se"].join(",")];
   CURRENT.forEach(p=>{
@@ -466,37 +475,8 @@ function exportCsv(){
                p.cited_by||0,esc(p.venue),"",""].join(","));
   });
   const blob=new Blob([rows.join("\n")],{type:"text/csv"});
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(blob); a.download="search_results.csv"; a.click();
-}
-
-// ---------- curated mode (owner's pre-run files) ----------
-async function loadCurated(){
-  if(CURATED) return;
-  try{ CURATED=await (await fetch("data/papers.json")).json(); }catch(e){ CURATED={papers:[]}; }
-  try{ META=await (await fetch("data/meta_results.json")).json(); }catch(e){ META=null; }
-}
-function renderCurated(){
-  const q=document.getElementById("q").value.toLowerCase().trim();
-  let papers=(CURATED.papers||[]).filter(p=>p.tab===TAB||(p.also_in&&p.also_in.length));
-  if(q) papers=papers.filter(p=>(p.title||"").toLowerCase().includes(q)||(p.abstract||"").toLowerCase().includes(q));
-  CURRENT=papers; renderList(papers);
-}
-function toggleAnalysis(){
-  const el=document.getElementById("analysis"),btn=document.getElementById("anBtn");
-  if(el.style.display==="none"){el.style.display="block";btn.textContent="Hide pooled meta-analysis ▾";el.innerHTML=analysisHtml();}
-  else{el.style.display="none";btn.textContent="Show pooled meta-analysis ▸";}
-}
-function analysisHtml(){
-  if(!META) return '<div class="empty">No curated analysis. Owner runs analyze.py to populate.</div>';
-  const h=META.heterogeneity,y=META.year_moderator,e=META.publication_bias_egger;
-  return `<dl class="kv">
-    <dt>Studies pooled</dt><dd>${META.n_studies}</dd>
-    <dt>Pooled effect (RE)</dt><dd>${META.pooled_effect} · 95% CI [${META.ci_95[0]}, ${META.ci_95[1]}] · p=${META.p_value}</dd>
-    <dt>Heterogeneity</dt><dd>I²=${h.I2_percent}% · τ²=${h.tau2} · Q=${h.Q}</dd></dl>
-    <div class="flag ${y.p<0.05?'warn':'ok'}"><b>Outdated-paper check:</b> ${y.interpretation} (p=${y.p.toFixed(3)})</div>
-    <div class="flag ${e.p<0.05?'warn':'ok'}"><b>Publication bias (Egger):</b> ${e.interpretation} (p=${e.p.toFixed(3)})</div>
-    <img src="data/forest.png" alt="Forest plot"><img src="data/funnel.png" alt="Funnel plot">`;
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download="search_results.csv";a.click();
 }
 
 setTab("field");
