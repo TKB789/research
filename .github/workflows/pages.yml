@@ -1,6 +1,6 @@
 # ============================================================================
 #  MOVE THIS FILE TO  .github/workflows/pages.yml  BEFORE IT WILL RUN.
-#  Publishes the site at  https://<your-username>.github.io/<repo>/frontend/
+#  Publishes the site at  https://<your-username>.github.io/<repo>/  (root)
 #  Enable once under repo Settings -> Pages -> Source: GitHub Actions.
 # ============================================================================
 name: Deploy site to Pages
@@ -9,9 +9,6 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - "frontend/**"
-      - "data/**"
 
 permissions:
   contents: read
@@ -33,6 +30,6 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: "."          # serves whole repo so frontend/ can read ../data/
+          path: "."          # serves repo root; index.html + data/ live here
       - id: deployment
         uses: actions/deploy-pages@v4
