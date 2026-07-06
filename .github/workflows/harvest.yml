@@ -1,0 +1,42 @@
+# ============================================================================
+#  MOVE THIS FILE TO  .github/workflows/harvest.yml  BEFORE IT WILL RUN.
+#  GitHub only reads workflows from that exact path. See README step 3.
+# ============================================================================
+name: Harvest and analyze
+
+on:
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+  schedule:
+    - cron: "0 6 * * 1"     # every Monday 06:00 UTC — keeps papers fresh
+
+permissions:
+  contents: write           # needed to commit results back to the repo
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r backend/requirements.txt
+
+      - name: Harvest papers (OpenAlex + Europe PMC)
+        run: python backend/harvest.py
+
+      - name: Run meta-analysis
+        run: python backend/analyze.py
+        continue-on-error: true   # skips gracefully if studies.csv not filled yet
+
+      - name: Commit results
+        run: |
+          git config user.name  "meta-research-bot"
+          git config user.email "actions@github.com"
+          git add data/papers.json data/papers.sqlite \
+                  data/meta_results.json data/forest.png data/funnel.png || true
+          git commit -m "chore: refresh harvested papers and analysis" || echo "nothing to commit"
+          git push

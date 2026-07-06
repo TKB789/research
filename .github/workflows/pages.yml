@@ -1,1 +1,38 @@
+# ============================================================================
+#  MOVE THIS FILE TO  .github/workflows/pages.yml  BEFORE IT WILL RUN.
+#  Publishes the site at  https://<your-username>.github.io/<repo>/frontend/
+#  Enable once under repo Settings -> Pages -> Source: GitHub Actions.
+# ============================================================================
+name: Deploy site to Pages
 
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "frontend/**"
+      - "data/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."          # serves whole repo so frontend/ can read ../data/
+      - id: deployment
+        uses: actions/deploy-pages@v4
