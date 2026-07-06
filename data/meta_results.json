@@ -1,1 +1,80 @@
-
+{
+  "n_studies": 7,
+  "pooled_effect": 0.2328,
+  "ci_95": [
+    0.1592,
+    0.3064
+  ],
+  "p_value": 0.0,
+  "heterogeneity": {
+    "I2_percent": 0.0,
+    "tau2": 0.0,
+    "Q": 5.988,
+    "p": 0.4245722171479317
+  },
+  "publication_bias_egger": {
+    "intercept": 2.7400969266695725,
+    "p": 0.5810063449705162,
+    "interpretation": "No strong evidence of funnel asymmetry"
+  },
+  "year_moderator": {
+    "slope_per_year": -0.013610879289996495,
+    "p": 0.06684186550450533,
+    "interpretation": "No significant time trend \u2014 old and new studies broadly agree"
+  },
+  "cumulative": [
+    {
+      "through_year": 2004,
+      "n_studies": 1,
+      "pooled": 0.42,
+      "ci_low": 0.06719999999999998,
+      "ci_high": 0.7727999999999999
+    },
+    {
+      "through_year": 2008,
+      "n_studies": 2,
+      "pooled": 0.34384615384615386,
+      "ci_low": 0.14814792461789306,
+      "ci_high": 0.5395443830744147
+    },
+    {
+      "through_year": 2011,
+      "n_studies": 3,
+      "pooled": 0.38497536945812805,
+      "ci_low": 0.20988366934565597,
+      "ci_high": 0.5600670695706002
+    },
+    {
+      "through_year": 2014,
+      "n_studies": 4,
+      "pooled": 0.33287841191066997,
+      "ci_low": 0.2086099120821624,
+      "ci_high": 0.45714691173917754
+    },
+    {
+      "through_year": 2017,
+      "n_studies": 5,
+      "pooled": 0.2777576681272623,
+      "ci_low": 0.18036634058661555,
+      "ci_high": 0.3751489956679091
+    },
+    {
+      "through_year": 2020,
+      "n_studies": 6,
+      "pooled": 0.2441829746073716,
+      "ci_low": 0.1540389882555668,
+      "ci_high": 0.33432696095917636
+    },
+    {
+      "through_year": 2023,
+      "n_studies": 7,
+      "pooled": 0.2328431396497929,
+      "ci_low": 0.15923883274332823,
+      "ci_high": 0.30644744655625755
+    }
+  ],
+  "plots": [
+    "forest.png",
+    "funnel.png"
+  ]
+}
