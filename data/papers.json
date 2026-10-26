@@ -112,7 +112,7 @@
       "title": "The effect of vitamin D supplementation on depression: a systematic review and dose\u2013response meta-analysis of randomized controlled trials",
       "year": 2024,
       "venue": "Psychological Medicine",
-      "cited_by": 26,
+      "cited_by": 27,
       "is_oa": true,
       "oa_url": "https://doi.org/10.1017/s0033291724001697",
       "abstract": "Abstract The impact of vitamin D supplementation on depressive symptoms remains uncertain. This study aimed to investigate the dose-dependent effects of vitamin D supplementation on depressive and anxiety symptoms in adults. We systematically searched PubMed, Scopus, and Web of Science up to December 2022 to identify randomized controlled trials evaluating the effects of vitamin D 3 supplementation on depression and anxiety symptoms in adults. Using a random-effects model, we calculated the standardized mean difference (SMD) for each 1000 IU/day vitamin D 3 supplementation. The GRADE tool assessed the certainty of evidence. Our analysis included 31 trials with 24189 participants. Each 1000 IU/day vitamin D 3 supplementation slightly reduced depressive symptoms in individuals with and without depression (SMD: \u22120.32, 95% CI \u22120.43 to \u22120.22; GEADE = moderate). The effect was more pronounced in those with depressive symptoms (SMD: \u22120.57, 95% CI \u22120.69 to \u22120.44; n = 15). The greatest reduction occurred at 8000 IU/day (SMD: \u22122.04, 95% CI \u22123.77 to \u22120.31). Trials with follow-up \u2a7d8 weeks (SMD: \u22120.45, 95% CI \u22120.70 to \u22120.20; n = 8) and 8 to \u2a7d24 weeks (SMD: \u22120.47, 95% CI \u22120.70 to \u22120.24; n = 15) showed stronger effects compared to those lasting 24 to \u2a7d52 weeks (SMD: \u22120.13, 95% CI \u22120.28 to 0.02; n = 5) or longer than 52 weeks (SMD: 0.14, 95% CI \u22120.16 to 0.44; n = 3) ( p group difference <0.001). Vitamin D 3 supplementation had no significant effects on anxiety symptoms. In summary, this study suggests that vitamin D 3 supplementation may effectively reduce depressive symptoms in short term. Further high-quality trials are warranted for a conclusive assessment of its impact on anxiety.",
@@ -254,6 +254,20 @@
     {
       "source_db": "openalex",
       "tab": "general",
+      "id": "https://openalex.org/W2176741160",
+      "doi": "10.1186/s12877-015-0148-3",
+      "title": "Vitamin D supplementation to prevent depression and poor physical function in older adults: Study protocol of the D-Vitaal study, a randomized placebo-controlled clinical trial",
+      "year": 2015,
+      "venue": "BMC Geriatrics",
+      "cited_by": 28,
+      "is_oa": true,
+      "oa_url": "https://bmcgeriatr.biomedcentral.com/counter/pdf/10.1186/s12877-015-0148-3",
+      "abstract": "BACKGROUND: Depressive symptoms and decreased physical functioning are interrelated conditions and common in older persons, causing significant individual and societal burden. Evidence suggests that vitamin D supplementation may be beneficial for both mental and physical functioning. However, previous randomized controlled trials have yielded inconsistent results and often had suboptimal designs. This study examines the effect of vitamin D supplementation on both depressive symptoms and physical functioning in a high-risk population of older persons with low vitamin D status. METHODS/DESIGN: The D-Vitaal study is a randomized, double-blind, placebo-controlled trial investigating the effects of a daily dose of 1200 IU vitamin D3 versus placebo for one year on depressive symptoms and physical functioning (primary outcomes) in older adults. Participants (N = 155, age 60-80 years) were recruited from the general population. Eligibility criteria included the presence of depressive symptoms, \u22651 functional limitation and serum 25-hydroxyvitamin D levels between 15 and 50/70 nmol/L (depending on season). Secondary outcomes include incidence of major depressive disorder, anxiety symptoms, health-related quality of life, cognitive function and cost-effectiveness of the intervention. DISCUSSION: With this study, we aim to elucidate the effects of vitamin D supplementation on depressive symptoms and physical functioning in older persons who are at high risk of developing more substantial mental and physical problems. If effective, vitamin D supplementation can be a preventive intervention strategy that is easy to implement in the primary care setting. TRIAL REGISTRATION: Netherlands Trial Register NTR3845. Registered 6 February 2013.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "openalex",
+      "tab": "general",
       "id": "https://openalex.org/W4394183506",
       "doi": "10.6084/m9.figshare.c.3629822_d1",
       "title": "Additional file 1: of A randomized controlled trial of vitamin D supplementation on perinatal depression: in Iranian pregnant mothers",
@@ -278,20 +292,6 @@
       "oa_url": null,
       "abstract": null,
       "is_paid_hint": true
-    },
-    {
-      "source_db": "openalex",
-      "tab": "general",
-      "id": "https://openalex.org/W2176741160",
-      "doi": "10.1186/s12877-015-0148-3",
-      "title": "Vitamin D supplementation to prevent depression and poor physical function in older adults: Study protocol of the D-Vitaal study, a randomized placebo-controlled clinical trial",
-      "year": 2015,
-      "venue": "BMC Geriatrics",
-      "cited_by": 28,
-      "is_oa": true,
-      "oa_url": "https://bmcgeriatr.biomedcentral.com/counter/pdf/10.1186/s12877-015-0148-3",
-      "abstract": "BACKGROUND: Depressive symptoms and decreased physical functioning are interrelated conditions and common in older persons, causing significant individual and societal burden. Evidence suggests that vitamin D supplementation may be beneficial for both mental and physical functioning. However, previous randomized controlled trials have yielded inconsistent results and often had suboptimal designs. This study examines the effect of vitamin D supplementation on both depressive symptoms and physical functioning in a high-risk population of older persons with low vitamin D status. METHODS/DESIGN: The D-Vitaal study is a randomized, double-blind, placebo-controlled trial investigating the effects of a daily dose of 1200 IU vitamin D3 versus placebo for one year on depressive symptoms and physical functioning (primary outcomes) in older adults. Participants (N = 155, age 60-80 years) were recruited from the general population. Eligibility criteria included the presence of depressive symptoms, \u22651 functional limitation and serum 25-hydroxyvitamin D levels between 15 and 50/70 nmol/L (depending on season). Secondary outcomes include incidence of major depressive disorder, anxiety symptoms, health-related quality of life, cognitive function and cost-effectiveness of the intervention. DISCUSSION: With this study, we aim to elucidate the effects of vitamin D supplementation on depressive symptoms and physical functioning in older persons who are at high risk of developing more substantial mental and physical problems. If effective, vitamin D supplementation can be a preventive intervention strategy that is easy to implement in the primary care setting. TRIAL REGISTRATION: Netherlands Trial Register NTR3845. Registered 6 February 2013.",
-      "is_paid_hint": false
     },
     {
       "source_db": "openalex",
@@ -428,7 +428,7 @@
       "title": "The effect of vitamin D supplementation on primary depression: A meta-analysis",
       "year": 2023,
       "venue": "Journal of Affective Disorders",
-      "cited_by": 31,
+      "cited_by": 32,
       "is_oa": false,
       "oa_url": null,
       "abstract": null,
@@ -442,24 +442,10 @@
       "title": "The effect of vitamin D supplementation on depressive symptoms in adults: A systematic review and meta\u2010analysis of randomized controlled trials",
       "year": 2022,
       "venue": "Critical Reviews in Food Science and Nutrition",
-      "cited_by": 74,
+      "cited_by": 75,
       "is_oa": true,
       "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/10408398.2022.2096560?needAccess=true",
       "abstract": "Neurosteroid and immunological actions of vitamin D may regulate depression-linked physiology. Meta\u2010analyses investigating the effect of vitamin D on depression have been inconsistent. This meta-analysis investigated the efficacy of vitamin D in reducing depressive symptoms among adults in randomized placebo-controlled trials (RCT). General and clinical populations, and studies of ill individuals with systemic diseases were included. Light therapy, co-supplementation (except calcium) and bipolar disorder were exclusionary. Databases Medline, PsycINFO, CINAHL and The Cochrane Library were searched to identify relevant articles in English published before April 2022. Cochrane risk-of-bias tool (RoB 2) and GRADE were used to appraise studies. Forty-one RCTs (n = 53,235) were included. Analyses based on random-effects models were performed with the Comprehensive Meta-analysis Software. Results for main outcome (n = 53,235) revealed a positive effect of vitamin D on depressive symptoms (Hedges\u2019 g = \u22120.317, 95% CI [\u22120.405, \u22120.230], p < 0.001, I2 = 88.16%; GRADE: very low certainty). RoB assessment was concerning in most studies. Notwithstanding high heterogeneity, vitamin D supplementation \u2265 2,000 IU/day appears to reduce depressive symptoms. Future research should investigate possible benefits of augmenting standard treatments with vitamin D in clinical depression. PROSPERO registration number: CRD42020149760. Funding: Finnish Medical Foundation, grant 4120 and Juho Vainio Foundation, grant 202100353.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "openalex",
-      "tab": "general",
-      "id": "https://openalex.org/W3021285606",
-      "doi": "10.1002/da.23025",
-      "title": "The effect of vitamin D supplement on negative emotions: A systematic review and meta\u2010analysis",
-      "year": 2020,
-      "venue": "Depression and Anxiety",
-      "cited_by": 111,
-      "is_oa": true,
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/da.23025",
-      "abstract": "BACKGROUND: The several meta-analyses of the effect of vitamin D on depression have produced inconsistent results and studies dealing with anxiety were not incorporated. There has been no comprehensive analysis of how results are affected by the nature of the sample or the dosage and duration of supplementation. The study is aimed to investigate whether vitamin D supplementation reduces negative emotions and to analyze the possible influence of sample and regimen. METHOD: We conducted a systematic review and meta-analysis of randomized controlled trials comparing the effect of vitamin D and placebo on negative emotion. Databases were searched for relevant articles published before February 2019. RESULTS: = 97.7%). Subgroup analysis showed that vitamin D had an effect on patients with major depressive disorder and on subjects with serum 25(OH)D levels \u226450 nmol/L. The pooled data from trials of vitamin D supplementation lasting \u22658 weeks and dosage \u22644,000 IU/day indicated that vitamin D had an effect. CONCLUSIONS: Our results support the hypothesis that vitamin D supplementation can reduce negative emotions. Patients with major depressive disorder and individuals with vitamin D deficiency are most likely to benefit from supplementation. But to interpret the results with high heterogeneity should still be cautious.",
       "is_paid_hint": false
     },
     {
@@ -474,6 +460,20 @@
       "is_oa": true,
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/gps.5847",
       "abstract": "OBJECTIVES: To investigate whether vitamin D supplementation reduces depressive symptoms and incidence of antidepressant use. METHODS: for the prevention of all-cause mortality. Participants were Australians aged 60-84 years. Participants completed the Patient Health Questionnaire (PHQ-9) at 1, 2 and 5 years after randomization to measure depressive symptoms; national prescribing records were used to capture antidepressant use. We used mixed models and survival models. RESULTS: Analyses of PHQ-9 scores included 20,487 participants (mean age 69\u00b73 years, 46% women); the mean difference (MD) in PHQ-9 score (vitamin D vs. placebo) was 0\u00b702 (95% CI -0\u00b706, 0\u00b711). There was negligible difference in the prevalence of clinically relevant depression (PHQ-9 score \u226510) (odds ratio 0\u00b799; 95% CI 0\u00b790, 1\u00b708). We included 16,670 participants in the analyses of incident antidepressant use (mean age 69\u00b74 years, 43% women). Incidence of antidepressant use was similar between the groups (hazard ratio [HR] 1\u00b704; 95% CI 0\u00b796, 1\u00b712). In subgroup analyses, vitamin D improved PHQ-9 scores in those taking antidepressants at baseline (MD -0\u00b725; 95% CI -0\u00b749, -0\u00b701; p-interaction = 0\u00b702). It decreased risk of antidepressant use in participants with predicted 25(OH)D concentration <50 nmol/L (HR 0\u00b788; 95% CI 0\u00b775, 1\u00b702; p-interaction = 0\u00b701) and increased risk in those with predicted 25(OH)D \u2265 50 nmol/L (HR 1\u00b710; 95% CI 1\u00b701, 1\u00b720). CONCLUSION: was not of benefit for measures of depression overall, but there was some evidence of benefit in subgroup analyses. CLINICAL TRIAL REGISTRATION: The trial is registered on the Australian New Zealand Clinical Trials Registry: ACTRN12613000743763. https://www.anzctr.org.au/.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "openalex",
+      "tab": "general",
+      "id": "https://openalex.org/W3021285606",
+      "doi": "10.1002/da.23025",
+      "title": "The effect of vitamin D supplement on negative emotions: A systematic review and meta\u2010analysis",
+      "year": 2020,
+      "venue": "Depression and Anxiety",
+      "cited_by": 111,
+      "is_oa": true,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/da.23025",
+      "abstract": "BACKGROUND: The several meta-analyses of the effect of vitamin D on depression have produced inconsistent results and studies dealing with anxiety were not incorporated. There has been no comprehensive analysis of how results are affected by the nature of the sample or the dosage and duration of supplementation. The study is aimed to investigate whether vitamin D supplementation reduces negative emotions and to analyze the possible influence of sample and regimen. METHOD: We conducted a systematic review and meta-analysis of randomized controlled trials comparing the effect of vitamin D and placebo on negative emotion. Databases were searched for relevant articles published before February 2019. RESULTS: = 97.7%). Subgroup analysis showed that vitamin D had an effect on patients with major depressive disorder and on subjects with serum 25(OH)D levels \u226450 nmol/L. The pooled data from trials of vitamin D supplementation lasting \u22658 weeks and dosage \u22644,000 IU/day indicated that vitamin D had an effect. CONCLUSIONS: Our results support the hypothesis that vitamin D supplementation can reduce negative emotions. Patients with major depressive disorder and individuals with vitamin D deficiency are most likely to benefit from supplementation. But to interpret the results with high heterogeneity should still be cautious.",
       "is_paid_hint": false
     },
     {
@@ -563,20 +563,6 @@
     {
       "source_db": "openalex",
       "tab": "general",
-      "id": "https://openalex.org/W1982863387",
-      "doi": "10.12974/2309-6128.2014.02.02.1",
-      "title": "The Role of Vitamin D in the Aging Adult",
-      "year": 2014,
-      "venue": "Journal of Aging and Gerontology",
-      "cited_by": 189,
-      "is_oa": true,
-      "oa_url": "http://savvysciencepublisher.com/jms/index.php/jag/article/download/245/234",
-      "abstract": "The number of individuals aged 65 and older is expected to more than double from 2012 to 2060. The role of vitamin D in the prevention and treatment of diseases associated with aging has not been well studied. Traditionally, the role of vitamin D focused on the maintenance of skeletal health in the older adult. With the discovery of vitamin D receptors in the nervous, cardiovascular and endocrine systems, the role of vitamin D and its impact on these systems has become an important area of research. Older adults are at risk for lower levels of vitamin D as a result of decreased cutaneous synthesis and dietary intake of vitamin D. Epidemiologic evidence indicates an association between low levels of vitamin D and diseases associated with aging such as cognitive decline, depression, osteoporosis, cardiovascular disease, hypertension, type 2 diabetes, and cancer. Clinical trials to determine the benefit of vitamin D supplementation in preventing and treating such diseases are in progress. This paper highlights current evidence regarding the role that vitamin D may play in diseases associated with aging and addresses the need for well-designed randomized trials to examine its benefit on health outcomes in the older adult.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "openalex",
-      "tab": "general",
       "id": "https://openalex.org/W4400318022",
       "doi": "10.1038/s41398-024-02997-7",
       "title": "Vitamin D, chronic pain, and depression: linear and non-linear Mendelian randomization analyses",
@@ -586,6 +572,20 @@
       "is_oa": true,
       "oa_url": "https://doi.org/10.1038/s41398-024-02997-7",
       "abstract": "Vitamin D deficiency has been linked to various chronic pain conditions. However, randomized trials of vitamin D supplementation have had mixed results. In contrast, systematic reviews of randomized trials indicate a protective effect of vitamin D supplementation on depression. We undertake a Mendelian randomization investigation in UK Biobank, a study of UK residents aged 40-65 at recruitment. We perform linear and non-linear Mendelian randomization analyses for four outcomes: fibromyalgia, clinical fatigue, chronic widespread pain, and probable lifetime major depression. We use genetic variants from four gene regions with known links to vitamin D biology as instruments. In linear analyses, genetically-predicted levels of 25-hydroxyvitamin D [25(OH)D], a clinical marker of vitamin D status, were not associated with fibromyalgia (odds ratio [OR] per 10 nmol/L higher 25(OH)D 1.02, 95% confidence interval [CI] 0.93, 1.12), clinical fatigue (OR 0.99, 95% CI 0.94, 1.05), chronic widespread pain (OR 0.95, 95% CI 0.89, 1.02), or probable lifetime major depression (OR 0.97, 95% CI 0.93, 1.01). In non-linear analyses, an association was observed between genetically-predicted 25(OH)D levels and depression in the quintile of the population with the lowest 25(OH)D levels (OR 0.75, 95% CI 0.59, 0.94); associations were null in other strata. Our findings suggest that population-wide vitamin D supplementation will not substantially reduce pain or depression; however, targeted supplementation of deficient individuals may reduce risk of depression.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "openalex",
+      "tab": "general",
+      "id": "https://openalex.org/W1982863387",
+      "doi": "10.12974/2309-6128.2014.02.02.1",
+      "title": "The Role of Vitamin D in the Aging Adult",
+      "year": 2014,
+      "venue": "Journal of Aging and Gerontology",
+      "cited_by": 189,
+      "is_oa": true,
+      "oa_url": "http://savvysciencepublisher.com/jms/index.php/jag/article/download/245/234",
+      "abstract": "The number of individuals aged 65 and older is expected to more than double from 2012 to 2060. The role of vitamin D in the prevention and treatment of diseases associated with aging has not been well studied. Traditionally, the role of vitamin D focused on the maintenance of skeletal health in the older adult. With the discovery of vitamin D receptors in the nervous, cardiovascular and endocrine systems, the role of vitamin D and its impact on these systems has become an important area of research. Older adults are at risk for lower levels of vitamin D as a result of decreased cutaneous synthesis and dietary intake of vitamin D. Epidemiologic evidence indicates an association between low levels of vitamin D and diseases associated with aging such as cognitive decline, depression, osteoporosis, cardiovascular disease, hypertension, type 2 diabetes, and cancer. Clinical trials to determine the benefit of vitamin D supplementation in preventing and treating such diseases are in progress. This paper highlights current evidence regarding the role that vitamin D may play in diseases associated with aging and addresses the need for well-designed randomized trials to examine its benefit on health outcomes in the older adult.",
       "is_paid_hint": false
     },
     {
@@ -622,15 +622,15 @@
     {
       "source_db": "openalex",
       "tab": "general",
-      "id": "https://openalex.org/W2587983561",
-      "doi": "10.1016/j.jsbmb.2017.01.021",
-      "title": "Vitamin D supplementation guidelines",
+      "id": "https://openalex.org/W2741925857",
+      "doi": "10.1080/19390211.2017.1334736",
+      "title": "High Dose Vitamin D Supplementation Is Associated With a Reduction in Depression Score Among Adolescent Girls: A Nine-Week Follow-Up Study",
       "year": 2017,
-      "venue": "The Journal of Steroid Biochemistry and Molecular Biology",
-      "cited_by": 724,
+      "venue": "Journal of Dietary Supplements",
+      "cited_by": 62,
       "is_oa": true,
-      "oa_url": "http://hdl.handle.net/2437/235449",
-      "abstract": null,
+      "oa_url": "https://doi.org/10.1080/19390211.2017.1334736",
+      "abstract": "Although vitamin D deficiency is known to be a risk factor for some psychological disorders, there have been few studies on the effects of vitamin D supplementation on their symptoms. Depression and aggression are common mental disorders and are associated with disability and disease burden. We aimed to evaluate the effectiveness of high-dose vitamin D supplementation on depression and aggression scores in adolescent girls. Nine hundred forty adolescent girls received vitamin D3 at a dose of 50,000 IU/week for 9 weeks. Anthropometric parameters and blood pressure were measured using standard protocols at the baseline and at the end of the study. Depression score was evaluated using the Beck Depression Inventory\u2013II and aggression was evaluated using the Buss-Perry Aggression Questionnaire at baseline and at the end of the study. Comparison among the four categories of depression score (normal, mild, moderate, and severe) revealed no significant differences in demographic and anthropometric parameters at baseline. After 9 weeks of vitamin D supplementation, there was a significant reduction on mild, moderate, and severe depression score. However, vitamin D supplementation had no significant effect on aggression score. Our results suggest that supplementation with vitamin D may improve depressive symptoms among adolescent girls, as assessed by questionnaire, but not aggression score. Formal, larger, randomized controlled studies are required to confirm this effect on cases with different degrees of depression.",
       "is_paid_hint": false
     },
     {
@@ -641,7 +641,7 @@
       "title": "Vitamin D deficiency and depression in adults: systematic review and meta-analysis",
       "year": 2013,
       "venue": "The British Journal of Psychiatry",
-      "cited_by": 819,
+      "cited_by": 820,
       "is_oa": true,
       "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F4E7DFBE5A7B99C9E6430AF472286860/S0007125000273418a.pdf/div-class-title-vitamin-d-deficiency-and-depression-in-adults-systematic-review-and-meta-analysis-div.pdf",
       "abstract": "BACKGROUND: There is conflicting evidence about the relationship between vitamin D deficiency and depression, and a systematic assessment of the literature has not been available. AIMS: To determine the relationship, if any, between vitamin D deficiency and depression. METHOD: A systematic review and meta-analysis of observational studies and randomised controlled trials was conducted. RESULTS: One case-control study, ten cross-sectional studies and three cohort studies with a total of 31 424 participants were analysed. Lower vitamin D levels were found in people with depression compared with controls (SMD = 0.60, 95% CI 0.23-0.97) and there was an increased odds ratio of depression for the lowest v. highest vitamin D categories in the cross-sectional studies (OR = 1.31, 95% CI 1.0-1.71). The cohort studies showed a significantly increased hazard ratio of depression for the lowest v. highest vitamin D categories (HR = 2.21, 95% CI 1.40-3.49). CONCLUSIONS: Our analyses are consistent with the hypothesis that low vitamin D concentration is associated with depression, and highlight the need for randomised controlled trials of vitamin D for the prevention and treatment of depression to determine whether this association is causal.",
@@ -650,15 +650,15 @@
     {
       "source_db": "openalex",
       "tab": "general",
-      "id": "https://openalex.org/W2741925857",
-      "doi": "10.1080/19390211.2017.1334736",
-      "title": "High Dose Vitamin D Supplementation Is Associated With a Reduction in Depression Score Among Adolescent Girls: A Nine-Week Follow-Up Study",
+      "id": "https://openalex.org/W2587983561",
+      "doi": "10.1016/j.jsbmb.2017.01.021",
+      "title": "Vitamin D supplementation guidelines",
       "year": 2017,
-      "venue": "Journal of Dietary Supplements",
-      "cited_by": 62,
+      "venue": "The Journal of Steroid Biochemistry and Molecular Biology",
+      "cited_by": 727,
       "is_oa": true,
-      "oa_url": "https://doi.org/10.1080/19390211.2017.1334736",
-      "abstract": "Although vitamin D deficiency is known to be a risk factor for some psychological disorders, there have been few studies on the effects of vitamin D supplementation on their symptoms. Depression and aggression are common mental disorders and are associated with disability and disease burden. We aimed to evaluate the effectiveness of high-dose vitamin D supplementation on depression and aggression scores in adolescent girls. Nine hundred forty adolescent girls received vitamin D3 at a dose of 50,000 IU/week for 9 weeks. Anthropometric parameters and blood pressure were measured using standard protocols at the baseline and at the end of the study. Depression score was evaluated using the Beck Depression Inventory\u2013II and aggression was evaluated using the Buss-Perry Aggression Questionnaire at baseline and at the end of the study. Comparison among the four categories of depression score (normal, mild, moderate, and severe) revealed no significant differences in demographic and anthropometric parameters at baseline. After 9 weeks of vitamin D supplementation, there was a significant reduction on mild, moderate, and severe depression score. However, vitamin D supplementation had no significant effect on aggression score. Our results suggest that supplementation with vitamin D may improve depressive symptoms among adolescent girls, as assessed by questionnaire, but not aggression score. Formal, larger, randomized controlled studies are required to confirm this effect on cases with different degrees of depression.",
+      "oa_url": "http://hdl.handle.net/2437/235449",
+      "abstract": null,
       "is_paid_hint": false
     },
     {
@@ -707,6 +707,20 @@
     {
       "source_db": "europepmc",
       "tab": "field",
+      "id": "EPMC:42886195",
+      "doi": null,
+      "title": "Vitamin D Supplementation in Community-Dwelling Adults.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": false,
+      "oa_url": null,
+      "abstract": "Vitamin D testing is commonly performed in adults. Evidence is lacking to support vitamin D screening or supplementation in the general population, regardless of baseline serum 25-hydroxyvitamin D levels. The National Academy of Medicine recommends that individuals 70 years and younger consume 600 IU of vitamin D daily and that individuals older than 70 years consume 800 IU daily. This can be achieved through dietary sources, supplements, or both. Achieving the recommended intake prevents serum 25-hydroxyvitamin D levels from decreasing to less than 12 ng/mL in 97.5% of the general population. Randomized controlled trials of vitamin D supplementation in the general population, including patients with low baseline serum 25-hydroxyvitamin D levels, do not demonstrate reduced all-cause mortality or improvement in cardiovascular health. Some patients with prediabetes may benefit from taking at least 3 years of vitamin D supplementation that exceeds the recommended dietary intake to reduce the risk of progression to type 2 diabetes. Randomized controlled trials of vitamin D supplementation for reducing the risk of falls and fractures, cancer, dementia, respiratory infections, and depression; for symptoms of fatigue, hair loss, and chronic pain; and during pregnancy and menopause do not show consistent benefit, including in patients with low baseline serum 25-hydroxyvitamin D levels.",
+      "is_paid_hint": true
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
       "id": "EPMC:PMC13442421",
       "doi": null,
       "title": "Alpha-Lipoic Acid in Depression and Cognitive Disorders: A Systematic Review",
@@ -744,6 +758,20 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "<b>Background/objective:</b> Postpartum depression (PPD) is a significant public health issue affecting about 19% of mothers globally. It has well-documented impacts on maternal well-being, mother-infant relationships, and child developmental outcomes. At the same time, the level of vitamin D deficiency in women of reproductive age is very high (affecting 60-87 percent of pregnant women globally). The review aims to synthesize current evidence and highlight priority research areas to improve maternal mental health outcomes. <b>Methods:</b> A systematic literature search of PubMed, Scopus, and Google Scholar (2015-2026) was conducted, followed by narrative synthesis of mechanistic, observational, and interventional evidence. <b>Results:</b> Adequate vitamin D status may contribute to a reduced risk of postpartum depression through multiple interacting pathways, including serotonin synthesis and metabolism (via tryptophan hydroxylase 2 (<i>TPH2</i>) and monoamine oxidase-A (<i>MAO-A</i>) regulation), neuroplasticity via brain-derived neurotrophic factor (<i>BDNF</i>) signaling, and suppression of the pro-inflammatory cytokine cascade. Dose-response meta-analyses and large prospective cohort studies indicate consistent negative relationships between maternal vitamin D levels and postpartum depressive and anxiety symptoms with optimal serum 25-hydroxyvitamin D (25(OH)D) levels of 90-110 nmol/L. <b>Conclusions:</b> There is still limited evidence on the intervention; it is still methodologically diverse, and only a few randomized controlled trials have been carried out on specifically postpartum populations.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42896117",
+      "doi": "10.2196/63804",
+      "title": "Vitamin D Supplementation and Improvement in Insomnia Symptoms Among Malaysian Women With Vitamin D Deficiency: Protocol for a Randomized Controlled Trial.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "<h4>Background</h4>Insomnia is a prevalent sleep disorder associated with adverse physical, psychological, and functional outcomes. Emerging evidence suggests that vitamin D deficiency may contribute to sleep disturbances. Women are more likely to have lower serum vitamin D (25-hydroxyvitamin D [25(OH)D]) levels than men, and they also report a higher prevalence of insomnia. Although several studies have proposed that vitamin D supplementation may improve insomnia symptoms, findings remain inconsistent, and evidence from Southeast Asian populations is limited.<h4>Objective</h4>This study aims to evaluate the effectiveness of weekly vitamin D\u2083 supplementation in improving insomnia symptoms, sleep quality, sleep efficiency, and functional outcomes among Malaysian women with vitamin D deficiency.<h4>Methods</h4>This study is a double-blind, parallel-group, randomized placebo-controlled trial conducted among women aged 19-50 years with serum 25(OH)D levels <20 ng/mL and insomnia symptoms. Participants are randomized to receive either vitamin D\u2083 capsules (50,000 IU/wk) or placebo (1 capsule/wk) for 9 weeks. The study is conducted in a community setting. Primary outcomes include insomnia severity assessed using the Insomnia Severity Index (ISI), sleep quality measured by the Pittsburgh Sleep Quality Index (PSQI), and sleep efficiency objectively assessed using actigraphy. Secondary outcomes include daytime sleepiness measured using the Epworth Sleepiness Scale (ESS) and functional outcomes assessed using the Functional Outcomes of Sleep Questionnaire (FOSQ-10). Assessments are conducted at baseline, midintervention, and postintervention.<h4>Results</h4>Participant recruitment commenced in December 2023 and is expected to conclude in December 2026. As of July 2026, 42 participants had been screened, 33 eligible participants had been enrolled, 22 had completed the study procedures, 4 were in the intervention phase, and 1 had withdrawn due to loss of contact.<h4>Conclusions</h4>If the efficacy of vitamin D3 supplementation in alleviating insomnia symptoms is demonstrated, it might be proposed as a supplementary approach to cognitive behavioral therapy (CBT) for insomnia. Screening for vitamin D deficiency may also be considered in individuals presenting with insomnia symptoms prior to initiating pharmacological treatment.",
       "is_paid_hint": false
     },
     {
@@ -875,20 +903,6 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:42108731",
-      "doi": "10.1080/07317115.2026.2669192",
-      "title": "Effects of 3-Month Vitamin D&lt;sub&gt;3&lt;/sub&gt; Supplementation on Motor and Non-Motor Symptoms in Parkinson's Disease: A Single-Arm Interventional Study.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": false,
-      "oa_url": null,
-      "abstract": "<h4>Objectives</h4>To evaluate the effects of three months of vitamin D<sub>3</sub> supplementation on vitamin D status, motor function, sleep quality, and depressive symptoms in patients with Parkinson's disease and vitamin D insufficiency.<h4>Methods</h4>In this open-label, single-arm pre - post interventional study, 49 patients with Parkinson's disease received oral vitamin D<sub>3</sub> supplementation (7500 IU/day) for three months. Serum 25(OH)D levels and clinical outcomes were assessed at baseline and post-intervention using the Unified Parkinson's Disease Rating Scale (UPDRS), Hoehn and Yahr stage, Pittsburgh Sleep Quality Index (PSQI), and Beck Depression Inventory (BDI).<h4>Results</h4>Mean serum 25(OH)D levels increased significantly from 15.91 to 26.45\u2009ng/mL (<i>p</i>\u2009<\u2009.001). UPDRS total and parts I - III scores improved significantly, while part IV showed no change. PSQI and BDI scores also decreased significantly. However, changes in 25(OH)D levels were not correlated with clinical outcomes, and subgroup analyses showed no differences according to post-intervention vitamin D status.<h4>Conclusions</h4>Vitamin D<sub>3</sub> supplementation improved biochemical and clinical measures in patients with Parkinson's disease and vitamin D insufficiency. However, the increase in vitamin D levels was not associated with clinical changes.<h4>Clinical implications</h4>Assessment and correction of vitamin D insufficiency may be considered in Parkinson's disease, but potential clinical benefits should be interpreted cautiously until confirmed by randomized controlled trials.",
-      "is_paid_hint": true
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
       "id": "EPMC:42620941",
       "doi": "10.3389/fpsyt.2026.1859969",
       "title": "From risk to resilience: a narrative overview of modifiable factors influencing depression in children with autism spectrum disorder (part I).",
@@ -899,6 +913,20 @@
       "oa_url": null,
       "abstract": "<h4>Background</h4>Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition frequently associated with internalizing disorders, particularly depression, which significantly impacts functioning and quality of life (QoL) in children and adolescents.<h4>Objective</h4>This paper represents the first part of a two-part structured narrative overview examining internalizing psychopathology in children and adolescents with ASD. Given the high co-occurrence and shared neurobiological, psychological, and environmental mechanisms linking depression and anxiety, the multidisciplinary research team elected to develop two complementary overviews to allow a more comprehensive and clinically meaningful synthesis of the evidence. The present review specifically aims to identify and synthesize current evidence on modifiable risk and protective factors influencing depression in children and adolescents with ASD.<h4>Methods</h4>A structured narrative overview was conducted, integrating evidence from systematic reviews, meta-analyses, and robust clinical studies. Studies were selected based on relevance and methodological quality, and findings were synthesized across biological, psychosocial, and lifestyle domains.<h4>Results</h4>Growing body of evidence indicates that depression in ASD is influenced by a complex interplay of genetic vulnerability, sensory and emotional dysregulation, social stressors, and environmental factors. At the same time, modifiable protective factors-including physical activity, psychosocial interventions, digital health approaches, and family-centered care-show potential in enhancing resilience and emotional well-being. However, the evidence base remains heterogeneous and often limited by methodological constraints.<h4>Conclusions</h4>A multidisciplinary and prevention-oriented approach that simultaneously addresses risk and strengthens protective pathways may optimize mental health outcomes and improve QoL in children and adolescents with ASD.",
       "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42108731",
+      "doi": "10.1080/07317115.2026.2669192",
+      "title": "Effects of 3-Month Vitamin D&lt;sub&gt;3&lt;/sub&gt; Supplementation on Motor and Non-Motor Symptoms in Parkinson's Disease: A Single-Arm Interventional Study.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": false,
+      "oa_url": null,
+      "abstract": "<h4>Objectives</h4>To evaluate the effects of three months of vitamin D<sub>3</sub> supplementation on vitamin D status, motor function, sleep quality, and depressive symptoms in patients with Parkinson's disease and vitamin D insufficiency.<h4>Methods</h4>In this open-label, single-arm pre - post interventional study, 49 patients with Parkinson's disease received oral vitamin D<sub>3</sub> supplementation (7500 IU/day) for three months. Serum 25(OH)D levels and clinical outcomes were assessed at baseline and post-intervention using the Unified Parkinson's Disease Rating Scale (UPDRS), Hoehn and Yahr stage, Pittsburgh Sleep Quality Index (PSQI), and Beck Depression Inventory (BDI).<h4>Results</h4>Mean serum 25(OH)D levels increased significantly from 15.91 to 26.45\u2009ng/mL (<i>p</i>\u2009<\u2009.001). UPDRS total and parts I - III scores improved significantly, while part IV showed no change. PSQI and BDI scores also decreased significantly. However, changes in 25(OH)D levels were not correlated with clinical outcomes, and subgroup analyses showed no differences according to post-intervention vitamin D status.<h4>Conclusions</h4>Vitamin D<sub>3</sub> supplementation improved biochemical and clinical measures in patients with Parkinson's disease and vitamin D insufficiency. However, the increase in vitamin D levels was not associated with clinical changes.<h4>Clinical implications</h4>Assessment and correction of vitamin D insufficiency may be considered in Parkinson's disease, but potential clinical benefits should be interpreted cautiously until confirmed by randomized controlled trials.",
+      "is_paid_hint": true
     },
     {
       "source_db": "europepmc",
@@ -992,7 +1020,7 @@
       "title": "Vitamin C-Beyond Deficiency: Mechanisms, Clinical Applications, Formulation and Dosing Considerations, and Safety Across Stress-Responsive Conditions.",
       "year": 2026,
       "venue": null,
-      "cited_by": 0,
+      "cited_by": 1,
       "is_oa": true,
       "oa_url": null,
       "abstract": "Vitamin C (L-ascorbic acid) is an essential micronutrient involved in collagen biosynthesis, redox regulation, immune function, endothelial biology, carnitine synthesis, neurotransmitter metabolism, and non-heme iron absorption. Dietary reference values are designed primarily to prevent deficiency in general populations, but vulnerability to low-vitamin C status may increase during trauma, surgery, chronic inflammation, malignancy, metabolic disease, smoking, poor intake, environmental exposure, and tissue repair. This narrative review synthesizes mechanistic, pharmacokinetic, clinical, and safety evidence on vitamin C as a stress-responsive micronutrient. Evidence is reviewed across tissue repair and wound healing, orthopedic recovery and selected complex regional pain syndrome risk contexts, fatigue, neuropsychiatric vulnerability, cancer-supportive care, vascular homeostasis, dermatologic biology, and preliminary microbiota-gut-brain axis hypotheses. The strength of evidence differs substantially across domains: biochemical functions and deficiency correction are well established, whereas benefits of supraphysiologic oral supplementation in vitamin C-replete patients remain uncertain. Oral nutritional supplementation is distinguished from intravenous pharmacologic ascorbate, with attention to route, formulation, dose division, gastrointestinal tolerance-limited adjustment, and safety monitoring. Because evidence for high-dose oral supplementation remains limited and condition-specific, such use should be individualized, time-limited, and clinician-monitored rather than presented as a population-level recommendation or evidence-defined therapeutic target. Taken together, the clinical value of vitamin C depends on baseline status, patient vulnerability, route, formulation, dosing interval, clinical endpoint, and safety review.",
@@ -1057,20 +1085,6 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:PMC13650172",
-      "doi": null,
-      "title": "Vitamin D: Physiology, Pharmacology and Clinical Evidence for Supplementation\u2014A Narrative Review",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": null,
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
       "id": "EPMC:42123920",
       "doi": "10.3390/nu18091318",
       "title": "From Plate to Mind: Scientific Perspectives on Foods That May Influence Anxiety and Depression.",
@@ -1080,6 +1094,20 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "<b>Background:</b> Nutritional psychiatry increasingly links diet quality and specific bioactive nutrients to depression and anxiety outcomes. Mechanistic evidence implicates neuroimmune activation, inflammation, altered neurotransmitter synthesis, and microbiota-derived metabolites. <b>Objective:</b> The objective of this study is to synthesize evidence on omega-3 polyunsaturated fatty acids (<i>n</i>-3 PUFAs), the microbiota-gut-brain axis, and vitamins and minerals that influence neurotransmitter synthesis, inflammation, and brain function and to translate these findings into food-based strategies. <b>Methods:</b> This study consisted of a focused synthesis of randomized controlled trials (RCTs), meta-analyses, and systematic reviews indexed in PubMed, Scopus and Web of Science, selected for relevance to omega-3s, probiotics/prebiotics, dietary patterns, and micronutrients (folate/B-vitamins, vitamin D, magnesium, zinc, and vitamin C/copper pathways). <b>Results:</b> RCT and meta-analytic evidence suggest modest benefits of omega-3 supplementation for anxiety severity and depressive symptoms, with heterogeneity by dose, EPA: DHA composition, and baseline inflammatory status. The gut-brain axis literature supports bidirectional effects of stress and microbiota, and meta-analyses of probiotics/prebiotics show small improvements in depressive and anxiety symptoms, likely dependent on strain and host phenotype. Micronutrients serve as enzymatic cofactors for monoamine and GABA synthesis and modulate immune signaling; clinical effects are the most consistent when correcting insufficiency or in biomarker-defined subgroups. A whole-diet RCT demonstrates that structured dietary improvement can reduce depressive symptoms as adjunctive therapy. <b>Conclusions:</b> A food-first approach emphasizing Mediterranean-style dietary patterns, omega-3-rich seafood, a diverse array of fiber, and micronutrient density is the most defensible. Supplementation may be considered selectively, guided by clinical context and nutritional status.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:PMC13650172",
+      "doi": null,
+      "title": "Vitamin D: Physiology, Pharmacology and Clinical Evidence for Supplementation\u2014A Narrative Review",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": null,
       "is_paid_hint": false
     },
     {
@@ -1141,20 +1169,6 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:42197057",
-      "doi": "10.3390/nu18101597",
-      "title": "Vitamin B&lt;sub&gt;12&lt;/sub&gt; Supplementation: Is More Always Better?",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "Vitamin B<sub>12</sub> supplementation among people without proven deficiency has become popularized, driven by perceptions of (i) frequent underdiagnosis of deficiency, (ii) promotion as a natural enhancer of well-being, and (iii) a favourable safety profile. Here, we examine whether these claims align with current evidence. We present guidance from major health authorities, which advises against routine testing in asymptomatic individuals without risk factors. The prevalence of B<sub>12</sub> deficiency varies greatly, mainly because definitions of B<sub>12</sub> deficiency are not standardized and may include clinical, biochemical, or functional criteria. Biochemical deficiency (typically serum B<sub>12</sub> < 148 pmol/L) is the predominant definition in epidemiological and clinical research studies. Using this criterion, deficiency appears uncommon in general populations of high-income countries (~2%), but substantially more frequent in settings with limited access to animal-source foods or B<sub>12</sub>-fortified products (up to 69%). Studying the effects of supplementation is also challenged by variation in the regimens used, which range from 0.02 to 1 mg/day orally and from 1 to 5 mg/week intramuscularly, with durations spanning ~4 weeks to ~7 years. This limits cross-study comparability. Overall, supplementation has not shown consistent benefits in populations without overt clinical or biochemical B<sub>12</sub> deficiency, with no clear improvements in fatigue, mood, cognition, or cardiovascular outcomes. Benefits, when reported, appear confined to selected subgroups (e.g., hyperhomocysteinemia or low-normal B<sub>12</sub> status). B<sub>12</sub> supplementation is generally well tolerated. There are rare reports of acneiform and hypersensitivity responses, although these cannot be completely distinguished from reactions to, e.g., excipients. Observational studies associate B<sub>12</sub> supplementation and higher circulating B<sub>12</sub> levels with increased risks of malignancy. However, these findings are inconsistent, and current evidence is insufficient to establish causality, as potential reverse causation remains a major concern.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
       "id": "EPMC:42775144",
       "doi": "10.1210/jendso/bvag205",
       "title": "Renal and systemic complications in autosomal dominant hypocalcemia type 1: a case series from North East England.",
@@ -1164,6 +1178,20 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "<h4>Context</h4>Autosomal dominant hypocalcemia type 1 (ADH1) is a rare genetic disorder caused by activating <i>CASR</i> variants, characterized by hypocalcemia, low/normal parathyroid hormone, and hypercalciuria. While managed with conservative calcium targets to prevent renal damage, the long-term systemic burden remains poorly defined.<h4>Objective</h4>To describe a case series of adults with genetically confirmed AHD1.<h4>Methods</h4>We reviewed 9 adults with genetically confirmed ADH1 in North East England (2005-2024). Clinical, biochemical, and imaging data were retrospectively analyzed from electronic records. Pathogenic <i>CASR</i> variants were identified via accredited genomic panels.<h4>Results</h4>The cohort (n = 9; 5 female; age 24-57) was 89% familial, with all exhibiting persistent hypocalcemia and 66% presenting with hypomagnesemia. Renal involvement affected 78%, including nephrocalcinosis (56%), nephrolithiasis (67%), and chronic kidney disease (CKD), with 2 patients from 1 kindred progressing to kidney failure (KF) and death. Extrarenal features included seizures, intracranial calcifications, dental abnormalities, and neuropsychiatric symptoms, often persisting despite conservative strategies to limit calcium supplementation post diagnosis. No clear correlation was found between mean serum calcium levels and disease severity, highlighting substantial phenotypic variability.<h4>Conclusion</h4>ADH1 is a multisystem disorder with substantial morbidity, including nephrocalcinosis, CKD, and a risk of KF despite cautious management. Other significant features include hypocalcemic seizures and intracranial calcification. These findings emphasize the necessity of early genetic diagnosis, family screening, and longitudinal renal surveillance. The high complication burden under conventional therapy underscores the need for targeted treatments, such as CaSR antagonists (calcilytics), to improve long-term outcomes.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42197057",
+      "doi": "10.3390/nu18101597",
+      "title": "Vitamin B&lt;sub&gt;12&lt;/sub&gt; Supplementation: Is More Always Better?",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "Vitamin B<sub>12</sub> supplementation among people without proven deficiency has become popularized, driven by perceptions of (i) frequent underdiagnosis of deficiency, (ii) promotion as a natural enhancer of well-being, and (iii) a favourable safety profile. Here, we examine whether these claims align with current evidence. We present guidance from major health authorities, which advises against routine testing in asymptomatic individuals without risk factors. The prevalence of B<sub>12</sub> deficiency varies greatly, mainly because definitions of B<sub>12</sub> deficiency are not standardized and may include clinical, biochemical, or functional criteria. Biochemical deficiency (typically serum B<sub>12</sub> < 148 pmol/L) is the predominant definition in epidemiological and clinical research studies. Using this criterion, deficiency appears uncommon in general populations of high-income countries (~2%), but substantially more frequent in settings with limited access to animal-source foods or B<sub>12</sub>-fortified products (up to 69%). Studying the effects of supplementation is also challenged by variation in the regimens used, which range from 0.02 to 1 mg/day orally and from 1 to 5 mg/week intramuscularly, with durations spanning ~4 weeks to ~7 years. This limits cross-study comparability. Overall, supplementation has not shown consistent benefits in populations without overt clinical or biochemical B<sub>12</sub> deficiency, with no clear improvements in fatigue, mood, cognition, or cardiovascular outcomes. Benefits, when reported, appear confined to selected subgroups (e.g., hyperhomocysteinemia or low-normal B<sub>12</sub> status). B<sub>12</sub> supplementation is generally well tolerated. There are rare reports of acneiform and hypersensitivity responses, although these cannot be completely distinguished from reactions to, e.g., excipients. Observational studies associate B<sub>12</sub> supplementation and higher circulating B<sub>12</sub> levels with increased risks of malignancy. However, these findings are inconsistent, and current evidence is insufficient to establish causality, as potential reverse causation remains a major concern.",
       "is_paid_hint": false
     },
     {
@@ -1188,7 +1216,7 @@
       "title": "High Dose Vitamin B6 Reduces Depression Symptoms.",
       "year": 2026,
       "venue": null,
-      "cited_by": 0,
+      "cited_by": 1,
       "is_oa": true,
       "oa_url": null,
       "abstract": "<h4>Background</h4>Several lines of evidence suggest that vitamin B6 has potential as an antidepressant. It plays a crucial coenzyme role in the synthesis of the neurotransmitters serotonin, gamma-aminobutyric acid (GABA) and dopamine, which are central to mood regulation, and it has been shown that increasing availably of vitamin B6 above normal levels increases concentrations of serotonin and GABA. Furthermore, epidemiological evidence points to vitamin B6 deficiency as a risk factor for depression, and to high vitamin B6 levels as protective. Therefore, we asked whether taking 100\u2009mg vitamin B6 as pyridoxine daily for 1 month would reduce depression symptoms, measured with the Depression, Anxiety and Stress Scales (DASS) questionnaire, which also assesses anxiety and stress.<h4>Methods</h4>We recruited 267 participants from the general population (215 female) and double blind randomised them to receive either placebo, vitamin B6 or vitamin B12 (1000\u2009\u00b5g). Using baseline DASS scores, we divided participants into a group classified as having mild or more severe depression symptoms at baseline (<i>N</i>\u2009=\u200958) and a larger group classified as non-depressed.<h4>Results</h4>Only within the former group, vitamin B6 produced a selective reduction in depression symptoms compared to placebo or vitamin B12 with a very large effect size (partial <i>\u03b7</i> <sup>2</sup>\u2009=\u20090.20). We also found evidence that participants whose DASS depression scores narrowly failed to meet criterion for moderate depression (<i>N</i>\u2009=\u200952) experienced a slightly smaller but still statistically substantial reduction in symptoms (partial <i>\u03b7</i> <sup>2</sup>\u2009=\u20090.17). We repeated the analysis procedure for anxiety and stress scores but found no significant effects.<h4>Conclusions</h4>We have shown that high-dose vitamin B6 has therapeutic potential for depression, and large-scale clinical trials with patients should now be conducted to determine whether these findings from our mostly female sample generalise to males, to quantify the dose-response relationship, and to evaluate its potential as an adjunct to existing treatments versus monotherapy, and to elucidate which factors, for example, presence of inflammation, predict responsiveness to the intervention.",
@@ -1281,20 +1309,6 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:42511488",
-      "doi": "10.3390/ijms27146142",
-      "title": "Neurotrophin System as a Complex Set of Potential Biomarkers in Psychiatric Disorders and Therapy-Overview of Recent Advances.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "The neurotrophin system has numerous regulatory roles in the central nervous system, including the growth, differentiation, and survival of neurons, the control of neurogenesis, synaptic plasticity, and the mediation of neurotransmitter balance, also with proven anti-inflammatory, anti-apoptotic, and antioxidative actions. These functions are seriously affected by numerous pathophysiological processes accompanied by mental illness. The variety of therapeutic protocols (pharmacotherapy, transcranial stimulation, psychotherapy, lifestyle changes, programmed physical activity, dietary interventions), individually or in combination, has been employed in the treatment of psychiatric disorders. To evaluate the effectiveness of therapeutic strategies, specific elements of the neurotrophin system have been quantified to assess their potential as biomarkers. However, data obtained in clinical trials for different psychiatric disorders still do not confirm the reliability of neurotrophin system elements as biomarkers. For this purpose, we aimed this narrative review to explore clinical studies published in the last decade that examined neurotrophin system elements in patients with various psychiatric disorders, with a focus on their association with disease severity, clinical state, and treatment response, which represents a promising avenue for improving our understanding of the underlying mechanisms and for identifying potential clinically relevant biomarkers, as well as sharpening therapeutic protocol outcome analyses.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
       "id": "EPMC:42652792",
       "doi": "10.3390/jcm15166390",
       "title": "The Gut-Brain Axis in Fetal Alcohol Spectrum Disorder (FASD): Why the Gut Shapes Behavior, Depression, and Self-Injurious Behavior in Children with Prenatal Alcohol Exposure-A Narrative Review with a Proposal for Staged Nutritional and Microbiological Intervention.",
@@ -1305,20 +1319,6 @@
       "oa_url": null,
       "abstract": "Prenatal alcohol exposure (PAE) leads to fetal alcohol spectrum disorder (FASD), the most common preventable cause of neurodevelopmental impairment. The classical narrative attributes the clinical picture of FASD exclusively to direct ethanol-induced brain injury. In the present review, we argue that this perspective is incomplete and leads to diagnostic errors, most often to the misdiagnosis of ADHD in children who in fact have FASD. We propose that, alongside the direct neurotoxicity of ethanol, an important and clinically under-recognized complementary mechanism is gut-brain axis dysfunction: alcohol damages the enteric nervous system and enteric glial cells, induces dysbiosis with deep deficits of butyrate and other short-chain fatty acids (SCFAs), damages the enterochromaffin cells responsible for 90% of peripheral serotonin production, and-through translocation of lipopolysaccharide (LPS) and activation of the Toll-like receptor 4 (TLR4)-sustains a neuroinflammatory brain signature. This cascade-superimposed on direct ethanol neurotoxicity-may account for the high rates of depression, anxiety, self-injurious behavior, and suicide attempts observed in individuals with FASD and for the limited efficacy of traditional interventions focused solely on the central nervous system. The 2024 Polish Institute of Mother and Child (Okulicz-Kozaryn et al.) study showed that 50.3% of pregnant women consumed alcohol, and 11% did so regularly, against only 7% who admitted so in questionnaires. The real clinical picture of children with FASD is further complicated by three factors to which we devote separate sections in this paper: prenatal co-exposure to nicotine, cannabinoids, and opioids; the loss of vertical microbiota transmission and breastfeeding in children transferred to foster care (where the prevalence of FASD is 18.8% and in children's homes in some regions reaches up to 80%); and the substantial over-representation of preterm and small-for-gestational-age (SGA) infants (in the Hasken et al. cohort, 18.4% of children with FASD were born preterm and 51.4% were born SGA). In the final section, we present a structured, staged protocol for nutritional and microbiological intervention grounded in a hierarchy of evidence: from interventions supported by randomized controlled trials (RCT-level; choline) through interventions supported by strong mechanistic rationale and RCTs in related populations (sodium butyrate, <i>Lactobacillus rhamnosus</i> GG, GOS/FOS prebiotics-galacto-oligosaccharides and fructo-oligosaccharides, and omega-3 fatty acids) to experimental interventions. The protocol also covers the window before 2 years of age: we argue that, given the over-representation of preterm and SGA infants among children with FASD, the analogy to preterm infants on parenteral nutrition and to post-institutional infants applies in substantial part to the same patients, which justifies extending the indications for choline and other nutritional interventions. The paper includes a compact table of dosing proposals for each age window (from pregnancy to school-age child) and provides clinicians with concrete answers: where to start, what to avoid, and what to monitor, with explicit signposting of regulatory limitations for individual substances in Poland and the European Union.",
       "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:41933624",
-      "doi": "10.1016/j.jad.2026.121709",
-      "title": "Effect of a six-month vitamin D supplementation on depressive symptoms in patients with major depressive episode (DepFuD): a double-blinded randomised controlled trial.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": false,
-      "oa_url": null,
-      "abstract": "<h4>Background</h4>Initial studies suggest vitamin D (VD) supplementation may aid in treating major depressive disorder, but rigorous randomised controlled trials are needed.<h4>Trial design</h4>DepFuD trial was a six-month, double-blinded, parallel-group, randomised controlled superiority design trial with a 1:1 allocation ratio. Outpatients with mild to severe depression episode, aged 18-65\u00a0years, were included.<h4>Methods</h4>The primary aim was to compare the effects of low-dose versus high-dose VD as adjunctive to participants' existing depression treatments, hypothesising that the high-dose group would show greater symptom reduction over six months. Participants were randomised to receive either 100\u00a0\u03bcg (4000\u00a0IU) or 10\u00a0\u03bcg (400\u00a0IU) of VD (cholecalciferol) daily for six months. The primary outcome was measured by between-group differential change over six months in the Montgomery-\u00c5sberg Depression Rating Scale (MADRS) score (range: 0-60). Data was collected in Finland between November 2015 and December 2020.<h4>Results</h4>A total of 281 participants were randomised: 142 in the low-dose and 139 in the high-dose group. At baseline, 46% of the participants in low-dose and 42% in high-dose group had VD deficiency (<50\u00a0nmol/l). Primary outcome data were available for 234 participants (116 in low-dose and 118 in high-dose). The standardised adjusted MADRS mean difference was small and non-significant (Cohen's d\u00a0=\u00a0-0.09; 95% CI -0.32 to 0.14).<h4>Conclusions</h4>The six-month trial demonstrated no superior effect of the higher VD supplementation compared to the lower VD supplementation on depressive symptoms.<h4>Registration</h4>ClinicalTrials.gov: NCT02521012. DepFuD was supported by Finnish State Research Funding (VTR).",
-      "is_paid_hint": true
     },
     {
       "source_db": "openalex",
@@ -1370,7 +1370,7 @@
       "title": "Effects of mindfulness exercises as stand-alone intervention on symptoms of anxiety and depression: Systematic review and meta-analysis",
       "year": 2017,
       "venue": "Behaviour Research and Therapy",
-      "cited_by": 247,
+      "cited_by": 248,
       "is_oa": false,
       "oa_url": null,
       "abstract": null,
@@ -1468,7 +1468,7 @@
       "title": "A systematic review and meta-analysis of acceptance- and mindfulness-based interventions for DSM-5 anxiety disorders",
       "year": 2021,
       "venue": "Scientific Reports",
-      "cited_by": 124,
+      "cited_by": 125,
       "is_oa": true,
       "oa_url": "https://www.nature.com/articles/s41598-021-99882-w.pdf",
       "abstract": "This meta-analysis systematically reviewed the evidence on standardized acceptance-/mindfulness-based interventions in DSM-5 anxiety disorders. Randomized controlled trials examining Acceptance and Commitment Therapy (ACT), Mindfulness-Based Cognitive Therapy (MBCT), and Mindfulness-Based Stress Reduction (MBSR) were searched via PubMed, Central, PsycInfo, and Scopus until June 2021. Standardized mean differences (SMD) and 95% confidence intervals (CI) were calculated for primary outcomes (anxiety) and secondary ones (depression and quality of life). Risk of bias was assessed using the Cochrane tool. We found 23 studies, mostly of unclear risk of bias, including 1815 adults with different DSM-5 anxiety disorders. ACT, MBCT and MBSR led to short-term effects on clinician- and patient-rated anxiety in addition to treatment as usual (TAU) versus TAU alone. In comparison to Cognitive Behavioral Therapy (CBT), ACT and MBCT showed comparable effects on both anxiety outcomes, while MBSR showed significantly lower effects. Analyses up to 6 and 12 months did not reveal significant differences compared to TAU or CBT. Effects on depression and quality of life showed similar trends. Statistical heterogeneity was moderate to considerable. Adverse events were reported insufficiently. The evidence suggests short-term anxiolytic effects of acceptance- and mindfulness-based interventions. Specific treatment effects exceeding those of placebo mechanisms remain unclear. Protocol registry: Registered at Prospero on November 3rd, 2017 (CRD42017076810).",
@@ -1491,16 +1491,19 @@
     {
       "source_db": "openalex",
       "tab": "general",
-      "id": "https://openalex.org/W2959535410",
-      "doi": "10.1111/eip.12849",
-      "title": "Effectiveness of mindfulness\u2010based interventions on anxiety for children and adolescents: A systematic review and meta\u2010analysis",
-      "year": 2019,
-      "venue": "Early Intervention in Psychiatry",
-      "cited_by": 29,
+      "id": "https://openalex.org/W7162409557",
+      "doi": "10.1080/20008066.2026.2664277",
+      "title": "Effects of virtual reality mindfulness interventions on depression and anxiety: a meta-analysis",
+      "year": 2026,
+      "venue": "European Journal of Psychotraumatology",
+      "cited_by": 2,
       "is_oa": true,
-      "oa_url": "https://hdl.handle.net/10115/29188",
-      "abstract": "Abstract Aim This paper aims to investigate the extent to which mindfulness\u2010based interventions serve to reduce anxiety in children and adolescents. A heterogeneous sample was used, including clinical and non\u2010clinical population. Methods A literature search of controlled intervention studies published up to December 31, 2016, was carried out in PubMed, Lilacs, Cochrane, Embase, PsycInfo, Opengrey and Teseo databases. The effect size was calculated by Cohen's d. The Cochran Q statistic and the I2 index were used for the study of heterogeneity. An analysis was conducted using the random effects model. Results 829 articles were identified, of which 18 were finally selected. Of these, only three had statistically significant effect sizes. The overall combined result obtained was .013, but it did not result statistically significant (CI95% [\u2212.102, .128].) The Q statistic was statistically significant (Q [18] = 28.497, P = . 39) and the I2 index was 40.34%, indicating a moderate heterogeneity. Conclusions This meta\u2010analysis did not obtain statistically significant results that could provide conclusions. In general, the studies analysed are small, of low power and have a marked heterogeneity, which implies that the findings are provisional and need to be supported by more robust studies. Although it cannot be ruled out that mindfulness\u2010based interventions are not effective in the infant\u2010juvenile population, it is also possible that this effect could not be detected due to the limited number of available studies. Larger investigations are needed, with sufficient statistical power and designs that control the variables potentially moderating, to establish clear conclusions.",
-      "is_paid_hint": false
+      "oa_url": "https://doi.org/10.1080/20008066.2026.2664277",
+      "abstract": "This exploratory meta-analysis suggests that VR-based mindfulness interventions are associated with reductions in depression and anxiety symptoms, moderated by intervention duration and regional cultural context. These findings support the potential of VR-based mindfulness as an accessible adjunctive approach, though high-quality studies with longer follow-up are needed to confirm sustained effects and improve generalizability.",
+      "is_paid_hint": false,
+      "also_in": [
+        "europepmc"
+      ]
     },
     {
       "source_db": "openalex",
@@ -1519,19 +1522,16 @@
     {
       "source_db": "openalex",
       "tab": "general",
-      "id": "https://openalex.org/W7162409557",
-      "doi": "10.1080/20008066.2026.2664277",
-      "title": "Effects of virtual reality mindfulness interventions on depression and anxiety: a meta-analysis",
-      "year": 2026,
-      "venue": "European Journal of Psychotraumatology",
-      "cited_by": 1,
+      "id": "https://openalex.org/W2959535410",
+      "doi": "10.1111/eip.12849",
+      "title": "Effectiveness of mindfulness\u2010based interventions on anxiety for children and adolescents: A systematic review and meta\u2010analysis",
+      "year": 2019,
+      "venue": "Early Intervention in Psychiatry",
+      "cited_by": 29,
       "is_oa": true,
-      "oa_url": "https://doi.org/10.1080/20008066.2026.2664277",
-      "abstract": "This exploratory meta-analysis suggests that VR-based mindfulness interventions are associated with reductions in depression and anxiety symptoms, moderated by intervention duration and regional cultural context. These findings support the potential of VR-based mindfulness as an accessible adjunctive approach, though high-quality studies with longer follow-up are needed to confirm sustained effects and improve generalizability.",
-      "is_paid_hint": false,
-      "also_in": [
-        "europepmc"
-      ]
+      "oa_url": "https://hdl.handle.net/10115/29188",
+      "abstract": "Abstract Aim This paper aims to investigate the extent to which mindfulness\u2010based interventions serve to reduce anxiety in children and adolescents. A heterogeneous sample was used, including clinical and non\u2010clinical population. Methods A literature search of controlled intervention studies published up to December 31, 2016, was carried out in PubMed, Lilacs, Cochrane, Embase, PsycInfo, Opengrey and Teseo databases. The effect size was calculated by Cohen's d. The Cochran Q statistic and the I2 index were used for the study of heterogeneity. An analysis was conducted using the random effects model. Results 829 articles were identified, of which 18 were finally selected. Of these, only three had statistically significant effect sizes. The overall combined result obtained was .013, but it did not result statistically significant (CI95% [\u2212.102, .128].) The Q statistic was statistically significant (Q [18] = 28.497, P = . 39) and the I2 index was 40.34%, indicating a moderate heterogeneity. Conclusions This meta\u2010analysis did not obtain statistically significant results that could provide conclusions. In general, the studies analysed are small, of low power and have a marked heterogeneity, which implies that the findings are provisional and need to be supported by more robust studies. Although it cannot be ruled out that mindfulness\u2010based interventions are not effective in the infant\u2010juvenile population, it is also possible that this effect could not be detected due to the limited number of available studies. Larger investigations are needed, with sufficient statistical power and designs that control the variables potentially moderating, to establish clear conclusions.",
+      "is_paid_hint": false
     },
     {
       "source_db": "openalex",
@@ -1541,7 +1541,7 @@
       "title": "Mindfulness-based interventions to reduce anxiety among Chinese college students: A systematic review and meta-analysis",
       "year": 2023,
       "venue": "Frontiers in Psychology",
-      "cited_by": 30,
+      "cited_by": 31,
       "is_oa": true,
       "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.1031398/pdf",
       "abstract": "Mindfulness-based interventions are found to have a positive effect on an individual's mental health. Using a meta-analysis method, this study examined the effects of mindfulness-based interventions on alleviating anxiety among Chinese college students. Using six international and two Chinese electronic databases, we comprehensively researched literature published between 1 January 2012 and 31 December 2021. The literature was then carefully selected and classified. The literature selection, data extraction, and quality assessment were all independently conducted by two members of the research team; any disagreements were resolved through consultation with a third researcher. A total of 11 original articles met all the eligibility criteria and were included in the meta-analysis. The meta-analysis revealed that mindfulness-based interventions have a positive effect on the remission of anxiety among Chinese college students. This confirms the need to generalize mindfulness-based interventions as a form of treatment and prevention for anxiety among Chinese college students.",
@@ -1625,7 +1625,7 @@
       "title": "Mindfulness-Based Art Interventions for Students: A Meta-Analysis Review of the Effect on Anxiety",
       "year": 2025,
       "venue": "Behavioral Sciences",
-      "cited_by": 6,
+      "cited_by": 7,
       "is_oa": true,
       "oa_url": "https://doi.org/10.3390/bs15081078",
       "abstract": "Anxiety has become an important issue affecting students\u2019 mental health. There is some evidence that mindfulness-based art interventions (MBAIs) can reduce students\u2019 anxiety symptoms. However, some studies have shown the opposite view. Therefore, it is necessary to explore whether MBAIs are effective in alleviating students\u2019 anxiety. In this meta-analysis, we chose 17 articles that met the criteria for inclusion, involving a total of 1548 participants, to figure out how big an impact the interventions had on student anxiety as a whole. The results show that MBAIs can reduce students\u2019 anxiety (g = \u22120.387, p = 0.000). The effect size varies based on different moderators, including learning stage, sample size, intervention type, research design, measuring instrument, and intervention duration. Intervention type, research design, and measuring instrument are significant moderators. Specifically, the mindfulness-based art intervention (MBAI) showed stronger effects than the mandala coloring activity. Single-group experimental designs showed significantly higher effect sizes than studies that included a control group, and studies that used other measurement instruments had significantly higher effect sizes than those that used the State\u2013Trait Anxiety Inventory. On this basis, the researchers put forward specific suggestions based on MBAIs to alleviate the anxiety of students from different educational backgrounds. However, due to the nascent nature of this field, the number of included articles is relatively small. The effectiveness of the research needs further testing.",
@@ -1690,20 +1690,6 @@
     {
       "source_db": "openalex",
       "tab": "general",
-      "id": "https://openalex.org/W4411902479",
-      "doi": "10.7717/peerj.19640",
-      "title": "Integrating mindfulness and physical activity: a meta-analysis of mindful movement interventions for symptoms of anxiety and depression among university students",
-      "year": 2025,
-      "venue": "PeerJ",
-      "cited_by": 5,
-      "is_oa": true,
-      "oa_url": "https://doi.org/10.7717/peerj.19640",
-      "abstract": "Background University students are increasingly vulnerable to mental health problems, such as anxiety and depression, which have been associated with academic stress, job market uncertainty, and lifestyle-related factors such as physical inactivity and poor sleep habits. Mindful movement, defined as structured programs integrating mindfulness practice with physical movement, offers a holistic approach to reducing anxiety and depression, though its effectiveness and specific intervention differences\u2014such as duration, delivery mode, and behavior change techniques\u2014remain underexplored. This study evaluated the effects of mindful movement interventions on anxiety and depression among university students. Methods A systematic search of six databases up to August 2024 identified 19 randomized controlled trials involving a total of 1,697 participants. A random-effects model was employed to pool effect sizes; subgroup analyses were conducted to explore sources of heterogeneity, and sensitivity analyses were performed to test the robustness of the results. Results The meta-analysis indicated that mindful movement interventions significantly reduced anxiety (standardized mean difference (SMD) = \u22120.42, 95% confidence interval (CI) [\u22120.52 to \u22120.31], p < 0.0001, I2 = 70%) and depression (Standardized Mean Difference (SMD) = \u22120.61, 95% CI [\u22121.01 to \u22120.20], p < 0.0001, I2 = 87%) compared to control groups. Subgroup analyses demonstrated no significant differences in effect sizes across different mindful movement types (yoga, tai chi, qigong). Meta-regression indicated that intervention type did not significantly explain heterogeneity (p = 0.495). Publication bias was not observed in most subgroups, except for potential bias in the tai chi group due to limited studies. Conclusion Mindful movement interventions are associated with enhanced mental health among university students, with no significant differences in the effects of yoga, tai chi, and qigong on reducing symptoms of anxiety and depression. It supports treating mindful movement as a unified approach to analyzing its impact on mental health. Residual heterogeneity highlights the need for further research on specific intervention elements and intervention and participant-related factors. PROSPERO registration number (CRD42024569238).",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "openalex",
-      "tab": "general",
       "id": "https://openalex.org/W4415786942",
       "doi": "10.52634/mier/2025/v15/i2/2831",
       "title": "Effectiveness of Mindfulness-Based Intervention on Anxiety of Young Students in India: A Meta-Analysis",
@@ -1713,6 +1699,20 @@
       "is_oa": true,
       "oa_url": "https://www.mierjs.in/index.php/mjestp/article/download/2831/1632",
       "abstract": "Mindfulness involves the deliberate act of focusing one\u2019s attention on the present moment without making judgments, allowing experiences to unfold naturally. Evidence suggests that practising mindfulness can positively influence mental health, particularly in reducing anxiety. In recent years, the younger generation in India, especially adolescent and young adult students, has been experiencing heightened levels of anxiety. This systematic review and meta-analysis, conducted in accordance with PRISMA guidelines, investigates the role of mindfulness in alleviating anxiety within this population. A thorough search was carried out across multiple digital databases, covering literature published between 2016 and 2023, when mindfulness research gained prominence. Out of the numerous studies screened, ten met the inclusion criteria and were analysed. The findings revealed that practising mindfulness has a beneficial effect in reducing anxiety among adolescent and young adult students in India, contributing to improved overall well-being.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "openalex",
+      "tab": "general",
+      "id": "https://openalex.org/W4411902479",
+      "doi": "10.7717/peerj.19640",
+      "title": "Integrating mindfulness and physical activity: a meta-analysis of mindful movement interventions for symptoms of anxiety and depression among university students",
+      "year": 2025,
+      "venue": "PeerJ",
+      "cited_by": 5,
+      "is_oa": true,
+      "oa_url": "https://doi.org/10.7717/peerj.19640",
+      "abstract": "Background University students are increasingly vulnerable to mental health problems, such as anxiety and depression, which have been associated with academic stress, job market uncertainty, and lifestyle-related factors such as physical inactivity and poor sleep habits. Mindful movement, defined as structured programs integrating mindfulness practice with physical movement, offers a holistic approach to reducing anxiety and depression, though its effectiveness and specific intervention differences\u2014such as duration, delivery mode, and behavior change techniques\u2014remain underexplored. This study evaluated the effects of mindful movement interventions on anxiety and depression among university students. Methods A systematic search of six databases up to August 2024 identified 19 randomized controlled trials involving a total of 1,697 participants. A random-effects model was employed to pool effect sizes; subgroup analyses were conducted to explore sources of heterogeneity, and sensitivity analyses were performed to test the robustness of the results. Results The meta-analysis indicated that mindful movement interventions significantly reduced anxiety (standardized mean difference (SMD) = \u22120.42, 95% confidence interval (CI) [\u22120.52 to \u22120.31], p < 0.0001, I2 = 70%) and depression (Standardized Mean Difference (SMD) = \u22120.61, 95% CI [\u22121.01 to \u22120.20], p < 0.0001, I2 = 87%) compared to control groups. Subgroup analyses demonstrated no significant differences in effect sizes across different mindful movement types (yoga, tai chi, qigong). Meta-regression indicated that intervention type did not significantly explain heterogeneity (p = 0.495). Publication bias was not observed in most subgroups, except for potential bias in the tai chi group due to limited studies. Conclusion Mindful movement interventions are associated with enhanced mental health among university students, with no significant differences in the effects of yoga, tai chi, and qigong on reducing symptoms of anxiety and depression. It supports treating mindful movement as a unified approach to analyzing its impact on mental health. Residual heterogeneity highlights the need for further research on specific intervention elements and intervention and participant-related factors. PROSPERO registration number (CRD42024569238).",
       "is_paid_hint": false
     },
     {
@@ -1766,7 +1766,7 @@
       "title": "Mindfulness-based interventions for cancer patients in standard treatment: A meta-analysis of effects on depression, anxiety, and quality of life",
       "year": 2025,
       "venue": "Journal of Psychosomatic Research",
-      "cited_by": 10,
+      "cited_by": 11,
       "is_oa": true,
       "oa_url": "https://doi.org/10.1016/j.jpsychores.2025.112312",
       "abstract": "Mindfulness interventions are indicated to be effective in reducing psychological symptoms faced by patients with cancer. However, there is a lack of revised evidence on their effectiveness during the active treatment phase. To address this research gap, we conducted a meta-analysis of controlled clinical trials with adult patients written in English, published in PubMed, Web of Science, PsycINFO and Scopus databases up to July 25, 2023. Studies with participants who completed oncological treatment more than 6 months before inclusion in the study were excluded. We calculated moderate effects on quality of life (12 studies with 1124 participants; SMD = 0.50; 95 % CI [0.33, 0.67]), depression (19 studies with 1586 participants; SMD = -0.60; 95 % CI [-0.79; -0.41]) and anxiety (20 studies with 1542 participants; SMD = -0.64; 95 % CI [-0.83, -0.46]), but with considerable heterogeneity. Subgroup analyses revealed that effectiveness differed for distinct types of intervention, but not for different cancer diagnoses. The overall quality of evidence (GRADE) was low mainly due to unexplained heterogeneity and risk of bias in most studies. Our findings highlight the importance of thoroughly examining sources of heterogeneity and enhancing methodological transparency in primary studies within oncology populations.",
@@ -1977,6 +1977,20 @@
     {
       "source_db": "openalex",
       "tab": "general",
+      "id": "https://openalex.org/W4411789540",
+      "doi": "10.2196/68231",
+      "title": "The Effectiveness of Virtual Reality\u2013Based Mindfulness Interventions for Managing Stress, Anxiety, and Depression: Protocol for a Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "year": 2025,
+      "venue": "JMIR Research Protocols",
+      "cited_by": 10,
+      "is_oa": true,
+      "oa_url": "https://www.researchprotocols.org/2025/1/e68231/PDF",
+      "abstract": "BACKGROUND While traditional mindfulness-based interventions demonstrate effectiveness in improving mental health outcomes, their delivery methods face significant challenges related to accessibility and engagement. Geographic barriers to trained facilitators, time constraints for in-person sessions, and participant dropout rates of 15% to 30% due to perceived monotony limit intervention reach and effectiveness. Virtual reality (VR) technology offers innovative solutions through multisensory immersion that creates presence, the subjective feeling of \u201cbeing there,\u201d enhancing attention regulation and reducing external distractions. Meta-analyses demonstrate that VR interventions achieve higher engagement rates and lower dropout compared to traditional delivery methods; however, systematic evaluation of VR-based mindfulness interventions remains limited. OBJECTIVE Following the population, intervention, comparison, and outcome framework, this systematic review protocol aims to evaluate whether VR-based mindfulness interventions (intervention), compared to traditional face-to-face mindfulness interventions, digital mindfulness apps, active nonmindfulness controls, and waitlist or no-treatment groups (comparisons), effectively reduce stress, anxiety, and depression while improving mindfulness and well-being (outcomes) in adults aged 18 to 65 years from both general and clinical populations with diagnosed mental health conditions (population). METHODS We will conduct comprehensive searches across 8 databases (PubMed, Web of Science, Embase, CINAHL, MEDLINE, the Cochrane Library, PsycINFO, and Scopus) from inception to June 2025, including gray literature and unpublished trials. Eligible studies include randomized controlled trials evaluating VR-based mindfulness interventions using immersive technology (head-mounted displays and cave environments) with explicit mindfulness content in adult populations. Primary outcomes include stress, anxiety, and depression; secondary outcomes encompass mindfulness levels, well-being, and user experience. Two independent reviewers will screen studies, extract data, and assess risk of bias using the Cochrane Risk of Bias 2 tool with standardized criteria. Meta-analysis will use random effects models with inverse variance weighting, calculating standardized mean differences with 95% CIs. Preplanned subgroup analyses will examine intervention duration (<2 wk, 2-8 wk, and >8 wk), VR technology type (head-mounted displays vs cave environments), population characteristics (clinical vs nonclinical samples), and mindfulness technique type, with heterogeneity quantification using prespecified I2 thresholds. RESULTS Database searches will commence in June 2025, with data extraction planned for August 2025 to September 2025 and systematic review completion planned by December 2025. Expected results include pooled effect sizes for primary outcomes, forest plots displaying individual and combined study effects with comprehensive subgroup analyses, and heterogeneity statistics with Grading of Recommendations Assessment, Development, and Evaluation evidence quality assessments. CONCLUSIONS The review will provide definitive evidence regarding VR-based mindfulness interventions\u2019 effectiveness for mental health outcomes. The findings will inform clinical practice guidelines for integrating VR-based mindfulness, guide technology development specifications, and establish evidence-based recommendations for health care policy regarding therapeutic VR reimbursement and regulatory frameworks. CLINICALTRIAL PROSPERO CRD42024585899; https://tinyurl.com/288evyku INTERNATIONAL REGISTERED REPORT PRR1-10.2196/68231",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "openalex",
+      "tab": "general",
       "id": "https://openalex.org/W7162886438",
       "doi": "10.1038/s44184-026-00216-3",
       "title": "Mindfulness-based interventions and cognitive behavioral therapy for depression, anxiety, and stress in adults with chronic conditions: a stratified subgroup meta-analysis",
@@ -1986,20 +2000,6 @@
       "is_oa": true,
       "oa_url": "https://www.nature.com/articles/s44184-026-00216-3_reference.pdf",
       "abstract": "Anxiety, depression, and stress are common in individuals with diabetes and cancer and are associated with poor self-management and well-being. Cognitive behavioral therapy (CBT) and mindfulness-based interventions (MBIs) are widely used in nonpharmacological treatments, but their comparative effectiveness remains unclear. We conducted a stratified subgroup meta-analysis to indirectly compare CBT and MBIs in adults with diabetes or cancer, examining moderators including condition, delivery modality, and dose. Following PRISMA guidelines, we searched Scopus, Web of Science, EBSCOhost, and ScienceDirect through October 2025. Randomized trials (N = 107; n = 23,585) reporting validated post-intervention outcomes were pooled using random-effects models, with subgroup and meta-regression analyses performed in RStudio. Overall, CBT and MBIs significantly improved outcomes (SMD = -0.78). CBT showed larger effects, particularly for depression (SMD = -0.95) and diabetes (SMD = -1.21), although comparisons were indirect and heterogeneity was substantial. Stronger effects were observed in group-based interventions lasting \u22658 weeks, providing \u22658 contact hours, and including homework or booster components; higher session frequency was also associated with greater improvement (\u03b2 = -0.086; p < 0.01). MBIs may offer scalable benefits, particularly in cancer care. These findings support condition-tailored psychosocial strategies, although results should be interpreted cautiously.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "openalex",
-      "tab": "general",
-      "id": "https://openalex.org/W4411789540",
-      "doi": "10.2196/68231",
-      "title": "The Effectiveness of Virtual Reality\u2013Based Mindfulness Interventions for Managing Stress, Anxiety, and Depression: Protocol for a Systematic Review and Meta-Analysis of Randomized Controlled Trials",
-      "year": 2025,
-      "venue": "JMIR Research Protocols",
-      "cited_by": 9,
-      "is_oa": true,
-      "oa_url": "https://www.researchprotocols.org/2025/1/e68231/PDF",
-      "abstract": "BACKGROUND While traditional mindfulness-based interventions demonstrate effectiveness in improving mental health outcomes, their delivery methods face significant challenges related to accessibility and engagement. Geographic barriers to trained facilitators, time constraints for in-person sessions, and participant dropout rates of 15% to 30% due to perceived monotony limit intervention reach and effectiveness. Virtual reality (VR) technology offers innovative solutions through multisensory immersion that creates presence, the subjective feeling of \u201cbeing there,\u201d enhancing attention regulation and reducing external distractions. Meta-analyses demonstrate that VR interventions achieve higher engagement rates and lower dropout compared to traditional delivery methods; however, systematic evaluation of VR-based mindfulness interventions remains limited. OBJECTIVE Following the population, intervention, comparison, and outcome framework, this systematic review protocol aims to evaluate whether VR-based mindfulness interventions (intervention), compared to traditional face-to-face mindfulness interventions, digital mindfulness apps, active nonmindfulness controls, and waitlist or no-treatment groups (comparisons), effectively reduce stress, anxiety, and depression while improving mindfulness and well-being (outcomes) in adults aged 18 to 65 years from both general and clinical populations with diagnosed mental health conditions (population). METHODS We will conduct comprehensive searches across 8 databases (PubMed, Web of Science, Embase, CINAHL, MEDLINE, the Cochrane Library, PsycINFO, and Scopus) from inception to June 2025, including gray literature and unpublished trials. Eligible studies include randomized controlled trials evaluating VR-based mindfulness interventions using immersive technology (head-mounted displays and cave environments) with explicit mindfulness content in adult populations. Primary outcomes include stress, anxiety, and depression; secondary outcomes encompass mindfulness levels, well-being, and user experience. Two independent reviewers will screen studies, extract data, and assess risk of bias using the Cochrane Risk of Bias 2 tool with standardized criteria. Meta-analysis will use random effects models with inverse variance weighting, calculating standardized mean differences with 95% CIs. Preplanned subgroup analyses will examine intervention duration (<2 wk, 2-8 wk, and >8 wk), VR technology type (head-mounted displays vs cave environments), population characteristics (clinical vs nonclinical samples), and mindfulness technique type, with heterogeneity quantification using prespecified I2 thresholds. RESULTS Database searches will commence in June 2025, with data extraction planned for August 2025 to September 2025 and systematic review completion planned by December 2025. Expected results include pooled effect sizes for primary outcomes, forest plots displaying individual and combined study effects with comprehensive subgroup analyses, and heterogeneity statistics with Grading of Recommendations Assessment, Development, and Evaluation evidence quality assessments. CONCLUSIONS The review will provide definitive evidence regarding VR-based mindfulness interventions\u2019 effectiveness for mental health outcomes. The findings will inform clinical practice guidelines for integrating VR-based mindfulness, guide technology development specifications, and establish evidence-based recommendations for health care policy regarding therapeutic VR reimbursement and regulatory frameworks. CLINICALTRIAL PROSPERO CRD42024585899; https://tinyurl.com/288evyku INTERNATIONAL REGISTERED REPORT PRR1-10.2196/68231",
       "is_paid_hint": false
     },
     {
@@ -2047,6 +2047,20 @@
     {
       "source_db": "europepmc",
       "tab": "field",
+      "id": "EPMC:42902338",
+      "doi": "10.1186/s40359-026-05436-y",
+      "title": "The efficacy of psychological interventions for anxiety in Parkinson's disease: a systematic review and meta-analysis including mindfulness and mind-body approaches.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "<h4>Background</h4>Anxiety is a prevalent and clinically significant non-motor symptom in individuals with Parkinson's disease (PD), yet the overall efficacy of psychological interventions for anxiety in this population remains unclear. This meta-analysis aimed to evaluate the effectiveness of psychological and mind-body interventions in reducing anxiety symptoms among individuals with PD and to explore potential differences according to theoretical orientation.<h4>Methods</h4>Randomized controlled trials (RCTs) examining psychological or mind-body interventions reporting anxiety outcomes in individuals with PD were systematically identified in four databases searched to 27 July 2026. Effect sizes were calculated as standardized mean differences using Hedges' g within a random-effects model, with between-study variance estimated by restricted maximum likelihood and inference based on the Hartung-Knapp adjustment. Heterogeneity was assessed using Cochran's Q and I\u00b2 statistics, and a prediction interval was calculated. Subgroup analyses compared cognitive-behavioral and interpersonal therapies with mindfulness- and mind-body-based approaches, and active with inactive control conditions. Sensitivity analyses, including leave-one-out procedures and exclusion of trials at high risk of bias, were performed. Publication bias was examined using funnel plot inspection and Egger's regression test, and the certainty of evidence with GRADE.<h4>Results</h4>Across 13 comparisons from 13 trials and 877 participants, psychological and mind-body interventions were associated with a statistically significant reduction in anxiety symptoms (Hedges' g\u2009=\u2009-\u20090.46, 95% CI [-\u20090.67, -\u20090.25]). Heterogeneity was moderate (I\u00b2 = 40.7%, 95% CI 0% to 79%), and the 95% prediction interval, -\u20091.00 to +\u20090.08, included the null. Cognitive-behavioral and interpersonal therapies showed a significant effect (g\u2009=\u2009-\u20090.57), whereas the estimate for mindfulness- and mind-body-based approaches was smaller and its interval included the null (g\u2009=\u2009-\u20090.25); there was no statistical evidence of subgroup differences. Subgroup findings should be interpreted cautiously because of the small number of comparisons within each category. Eleven of the thirteen comparisons used an inactive control condition (g\u2009=\u2009-\u20090.53), and the estimate against active comparators was imprecise (g\u2009=\u2009-\u20090.22). A similar reduction was observed at follow-up in nine trials (g\u2009=\u2009-\u20090.39). Sensitivity analyses confirmed the stability of the pooled effect, and no clear evidence of publication bias was detected.<h4>Conclusions</h4>Psychological and mind-body interventions may reduce anxiety symptoms in individuals with PD, and a similar reduction was observed at follow-up. However, the clinical interpretation of this effect requires caution because different anxiety scales were used across trials, the number of included studies was limited, several studies were rated as having a high risk of bias, the prediction interval included the null, and the effect derives principally from comparisons with inactive control conditions. The overall certainty of the evidence was very low. Although no statistically significant differences between theoretical approaches were observed, this subgroup finding should be interpreted as exploratory, and larger trials recruiting participants with clinically significant anxiety, using active comparators and standardized follow-up, are needed before firm clinical recommendations can be made.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
       "id": "EPMC:42625454",
       "doi": "10.2196/74272",
       "title": "Effects of Self-Guided Digital Mindfulness Interventions on the Mental Health of Health Care Workers: Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
@@ -2089,20 +2103,6 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:42614327",
-      "doi": "10.3389/fpsyt.2026.1868153",
-      "title": "Mindfulness-based interventions for perinatal depression, anxiety, and stress: a systematic review and meta-analysis of randomized controlled trials, with an exploratory subgroup signal by delivery mode.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "<h4>Background</h4>Perinatal depression is a highly common clinical complication. While expert panels advocate for non-pharmacological treatments, the relative benefits of mindfulness-based interventions delivered face-to-face versus through emerging digital platforms have not been examined within a single integrated synthesis that distinguishes the contribution of delivery mode from that of trial era and methodology.<h4>Methods</h4>We conducted a systematic review and meta-analysis of parallel-group randomized controlled trials evaluating mindfulness-based interventions for perinatal women. The synthesis relied exclusively on directly verifiable, publicly accessible study-level data, obtained from primary full-text reports and, for seven of the ten depression trials, from the open controlled-data table of a prior peer-reviewed meta-analysis (Lever Taylor et\u00a0al., 2016). The primary outcome was post-intervention depressive symptoms, with anxiety and stress as secondary outcomes. A pre-specified subgroup analysis examined delivery mode (digital versus face-to-face) as an exploratory, hypothesis-generating moderator rather than as a head-to-head comparison.<h4>Results</h4>Ten RCTs (591 perinatal women) contributed depression data. MBIs significantly reduced depressive symptoms (Hedges g = -0.31, 95% CI -0.48 to -0.14; P < .001; I\u00b2 = 0%), with a 95% prediction interval excluding the null. In an exploratory, pre-specified subgroup analysis, the digital subgroup showed a larger pooled effect than the face-to-face subgroup (g = -0.40 vs. -0.13; test for subgroup differences, P\u00a0= .04). Because delivery mode was completely confounded with publication year, trial size, and risk of bias, and because all three digital trials enrolled antenatal samples, this difference is reported as hypothesis-generating rather than as evidence of modality superiority. Pooled effects favored MBIs for anxiety (g = -0.29; k = 8) but were not significant for stress (g = -0.11; k = 8). Sensitivity analyses supported the robustness of the depression finding.<h4>Conclusion</h4>MBIs produce a small-to-moderate reduction in perinatal depressive and anxiety symptoms, with a numerically larger depression effect in the digital subgroup. Because delivery mode is completely confounded with publication year, trial size, and risk of bias in the present evidence base, this subgroup difference is hypothesis-generating, and no delivery mode can yet be considered superior. Confirmatory trials using active comparators, longer postpartum follow-up, and standardized outcome reporting are needed before any delivery mode can be considered superior.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
       "id": "EPMC:42682640",
       "doi": "10.3389/fpsyg.2026.1883919",
       "title": "Psychological interventions and mental health outcomes among caregivers of children with intellectual disability: a systematic review and meta-analysis.",
@@ -2112,6 +2112,20 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "<h4>Introduction</h4>Mothers and caregivers of children with intellectual and developmental disabilities often experience depression, anxiety, parenting stress, emotional exhaustion, and reduced psychological wellbeing because of prolonged caregiving demands, behavioral difficulties, financial strain, and social stigma. Psychological and behavioral interventions have increasingly been introduced to improve caregiver mental health outcomes. This study examined the effectiveness of these interventions on the mental health of mothers and caregivers of children with intellectual and developmental disabilities.<h4>Methodology</h4>The study adopted a systematic review and meta-analysis design guided by PRISMA procedures. Electronic databases, including PubMed, PsycINFO, Scopus, Web of Science, CINAHL, Embase, ERIC, and Google Scholar, were searched for relevant studies published up to December 2025. Fourteen studies involving more than 740 participants met the eligibility criteria. Data extraction, quality appraisal, subgroup analyses, sensitivity analyses, and publication bias assessments were conducted using standard meta-analytic procedures.<h4>Results</h4>The findings demonstrated that psychological and behavioral interventions significantly improved depression, anxiety, parenting stress, mental health, and wellbeing outcomes among caregivers. Cognitive Behavioral Therapy produced the strongest reductions in depressive symptoms and irrational beliefs, while mindfulness and psychoeducational interventions improved stress management, emotional regulation, and parenting self-efficacy.<h4>Discussion</h4>The findings suggest that caregiver-focused psychological interventions may strengthen emotional resilience, coping capacities, and family wellbeing. The review highlights the importance of integrating evidence-based mental health interventions into disability support and family-centered rehabilitation services.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42614327",
+      "doi": "10.3389/fpsyt.2026.1868153",
+      "title": "Mindfulness-based interventions for perinatal depression, anxiety, and stress: a systematic review and meta-analysis of randomized controlled trials, with an exploratory subgroup signal by delivery mode.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "<h4>Background</h4>Perinatal depression is a highly common clinical complication. While expert panels advocate for non-pharmacological treatments, the relative benefits of mindfulness-based interventions delivered face-to-face versus through emerging digital platforms have not been examined within a single integrated synthesis that distinguishes the contribution of delivery mode from that of trial era and methodology.<h4>Methods</h4>We conducted a systematic review and meta-analysis of parallel-group randomized controlled trials evaluating mindfulness-based interventions for perinatal women. The synthesis relied exclusively on directly verifiable, publicly accessible study-level data, obtained from primary full-text reports and, for seven of the ten depression trials, from the open controlled-data table of a prior peer-reviewed meta-analysis (Lever Taylor et\u00a0al., 2016). The primary outcome was post-intervention depressive symptoms, with anxiety and stress as secondary outcomes. A pre-specified subgroup analysis examined delivery mode (digital versus face-to-face) as an exploratory, hypothesis-generating moderator rather than as a head-to-head comparison.<h4>Results</h4>Ten RCTs (591 perinatal women) contributed depression data. MBIs significantly reduced depressive symptoms (Hedges g = -0.31, 95% CI -0.48 to -0.14; P < .001; I\u00b2 = 0%), with a 95% prediction interval excluding the null. In an exploratory, pre-specified subgroup analysis, the digital subgroup showed a larger pooled effect than the face-to-face subgroup (g = -0.40 vs. -0.13; test for subgroup differences, P\u00a0= .04). Because delivery mode was completely confounded with publication year, trial size, and risk of bias, and because all three digital trials enrolled antenatal samples, this difference is reported as hypothesis-generating rather than as evidence of modality superiority. Pooled effects favored MBIs for anxiety (g = -0.29; k = 8) but were not significant for stress (g = -0.11; k = 8). Sensitivity analyses supported the robustness of the depression finding.<h4>Conclusion</h4>MBIs produce a small-to-moderate reduction in perinatal depressive and anxiety symptoms, with a numerically larger depression effect in the digital subgroup. Because delivery mode is completely confounded with publication year, trial size, and risk of bias in the present evidence base, this subgroup difference is hypothesis-generating, and no delivery mode can yet be considered superior. Confirmatory trials using active comparators, longer postpartum follow-up, and standardized outcome reporting are needed before any delivery mode can be considered superior.",
       "is_paid_hint": false
     },
     {
@@ -2187,6 +2201,20 @@
     {
       "source_db": "europepmc",
       "tab": "field",
+      "id": "EPMC:42898778",
+      "doi": "10.3389/fonc.2026.1896549",
+      "title": "Integrative options for the management of anxiety and depression in people with cancer.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "This review summarizes the definition, diagnosis and prevalence of anxiety and depression symptoms and disorders in people with cancer, followed by an overview of integrative therapies that are guideline-recommended for managing these conditions. Recommended therapies include mindfulness-based interventions, yoga, relaxation, music, reflexology, Taichi/Qigong, acupuncture, lavender aromatherapy and hypnosis. This is followed by a summary of emerging therapies that show preliminary evidence of efficacy, but are not yet included in guideline recommendations, including other forms of aromatherapy, light therapy, biofield therapies, psychedelic-assisted therapy and nature-based interventions. The paper concludes with a summary of common methodological issues and suggestions for future research directions.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
       "id": "EPMC:42656332",
       "doi": "10.3389/fpsyg.2026.1842687",
       "title": "Comparative effects of different sport psychology interventions on anxiety in competitive athletes: a Bayesian network meta-analysis.",
@@ -2238,6 +2266,20 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "<h4>Introduction</h4>Athletes frequently encounter considerable emotional challenges during high-intensity training and competition. Effective emotion regulation is essential not only for athletic performance but also for long-term mental health and career longevity. Although mindfulness interventions have been increasingly applied in sport psychology, their effects on athletes' emotion regulation have not been comprehensively evaluated. This meta-analysis therefore examined the effects of mindfulness interventions on emotion regulation among athletes.<h4>Methods</h4>Seven eligible studies involving 273 participants were synthesized to evaluate the effects of mindfulness interventions on athletes' emotion regulation.<h4>Results</h4>Mindfulness interventions produced a statistically significant, moderate effect on athletes' emotion regulation (Hedges' <i>g</i> =\u202f0.81, 95% CI [0.51, 1.11], <i>p</i> <\u202f0.0001). Egger's regression test was not statistically significant (<i>p</i> >\u202f0.05); however, this finding provides limited reassurance because the test has low statistical power when fewer than 10 studies are included.<h4>Discussion</h4>The overall estimate was based on only seven studies, and the direct comparison between Mindfulness-Acceptance-Commitment training and Psychological Skills Training was based on only three studies. The findings should therefore be considered preliminary and require confirmation in larger, higher-quality randomized controlled trials. Future research should examine diverse athlete populations and intervention conditions to clarify how mindfulness-based and traditional psychological training approaches contribute to athletes' emotion regulation and psychological functioning.<h4>Systematic review registration</h4>PROSPERO. Registration number: CRD420261340782. https://www.crd.york.ac.uk/PROSPERO/view/CRD42026134078.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42764435",
+      "doi": "10.1111/camh.70126",
+      "title": "Avoiding erroneous decisions: evidence, population impact and acceptability of universal mental health interventions in schools - a commentary on Andrews et\u00a0al.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "Foulkes and colleagues argue many 'universal' interventions to prevent mental health problems are harmful ('inflating prevalence' because they raise awareness of mental health problems, encouraging those without such problems to misinterpret everyday concerns as symptoms of mental health disorders, causing avoidance of stressful situations, worsening mental health), relatively ineffective (effect sizes being smaller than for targeted interventions) and/or unacceptable to students, and should be discontinued. These arguments are based on weak evidence. While their 'prevalence inflation' hypothesis is potentially important and plausible when applied to awareness-raising interventions, evidence for it is currently weak and there is a tendency to overgeneralise to broader interventions. Arguments about the relative impacts of universal and targeted interventions fail to distinguish between individual and population impacts. Arguments about unacceptability are based on selected findings from a few studies, not reflecting broader evidence. These arguments could lead to erroneous decisions to discontinue universal mental health interventions in schools when they are most needed.",
       "is_paid_hint": false
     },
     {
@@ -2313,15 +2355,15 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:42656356",
-      "doi": "10.3389/fnhum.2026.1844429",
-      "title": "Yoga-based meditation improves self-regulation and well-being in medical students: a pilot study.",
+      "id": "EPMC:42837654",
+      "doi": "10.2196/104791",
+      "title": "Comparative Efficacy and Acceptability of Transdiagnostic Psychotherapies for Emotional Disorders: Protocol for a Network Meta-Analysis of Randomized Controlled Trials.",
       "year": 2026,
       "venue": null,
       "cited_by": 0,
       "is_oa": true,
       "oa_url": null,
-      "abstract": "<h4>Introduction</h4>Self-regulation enables students to effectively apply their metacognitive abilities to reach academic objectives and enhance their well-being, which is essential in academic high-pressure situations such as medical education. However, many medical students have difficulty managing their cognitive and emotional responses to continued academic pressure and the clinical demands placed upon them. Thus, it is important to identify methods that may support the self-regulatory abilities of medical students.<h4>Methods</h4>This study assessed whether participation in a yoga-based meditation program was associated with pre-to-post changes in cognitive and psychological indicators of self-regulation among medical students. The sample consisted of forty subjects who completed a series of self-report questionnaires assessing anxiety, stress, depression (DASS-21 and STAI), mindfulness (FFMQ), and overall mental health or psychological well-being (WEMWBS). In addition to completing the self-report measures, each subject's cognitive performance was measured before and after completion of the intervention program using three separate tasks: AOSPAN for working memory, a free recall task to measure episodic memory, and SART for sustained attention.<h4>Results</h4>Pre/post assessments revealed statistically significant decreases in reported levels of anxiety, stress, and depression. Conversely, there were statistically significant increases in reported levels of psychological well-being and global mindfulness meta-awareness. Following the intervention, cognitive task performance also changed. Specifically, we observed significant increases in working memory performance, immediate and delayed episodic memory, and response accuracy, together with response-time dynamics consistent with a more cautious response pattern.<h4>Discussion</h4>These results suggest that yoga-based meditation was associated with pre-to-post changes in cognitive and psychological indicators of self-regulation, although causal interpretation is limited by the single-group pilot design. Taken together, these findings support further investigation of meditation-based programs as low-cost and scalable approaches to support cognitive performance and overall well-being in demanding educational settings such as medical education.",
+      "abstract": "<h4>Background</h4>Emotional disorders-primarily anxiety and unipolar depressive disorders-are highly prevalent, disabling, and frequently comorbid. Disorder\u2011specific cognitive behavioral therapy (DS\u2011CBT) is considered a gold standard treatment, yet it can be inefficient in the context of high comorbidity and service constraints. Transdiagnostic psychotherapies that target shared maintaining mechanisms (eg, emotion dysregulation and neuroticism) have been developed, including the Unified Protocol, transdiagnostic behavior therapy, emotion regulation therapy, and various transdiagnostic internet-delivered cognitive behavioral therapy protocols. Recent meta-analyses suggest that transdiagnostic interventions are effective or likely effective, but a comprehensive comparative evaluation across different transdiagnostic protocols, DS\u2011CBT, other evidence\u2011based psychotherapies, and control conditions is lacking.<h4>Objective</h4>This study aims to conduct a network meta-analysis (NMA) to compare the efficacy and acceptability of various transdiagnostic therapies (eg, the Unified Protocol, transdiagnostic behavior therapy, and emotion regulation therapy), DS-CBT, other evidence-based active therapies (eg, acceptance and commitment therapy, behavioral activation, and mindfulness-based cognitive therapy), and control conditions (waitlist or care as usual) in improving symptoms in adults with anxiety and/or depressive disorders and generate a probabilistic ranking of their efficacy.<h4>Methods</h4>This meta-analysis will include randomized controlled trials from PubMed, Embase, PsycInfo, and the Cochrane Library, complemented by existing meta\u2011analytic research domain databases for depression and anxiety. Eligible participants are adults (\u226518 years) with a principal diagnosis of anxiety and/or unipolar depressive disorder according to established diagnostic classification systems (eg, any version of the Diagnostic and Statistical Manual of Mental Disorders or International Classification of Diseases, 10th or 11th revisions) or scoring above a validated cutoff on anxiety or depression scales. Primary outcomes are continuous measures of anxiety and depressive symptom severity at the posttreatment time point; secondary outcomes include study dropout (acceptability) and response or remission where available. We will perform random-effects network meta-analyses within a frequentist framework using the netmeta package in R to estimate relative treatment effects and P scores for treatment rankings and examine transitivity and consistency. We will conduct additional Bayesian NMAs as sensitivity analyses using the surface under the cumulative ranking curve for ranking.<h4>Results</h4>As of September 2026, the literature search has been completed, and title and abstract screening is ongoing. Data analysis will be conducted in late 2026. We expect the meta-analysis to be completed and submitted for publication by the end of 2026, with results expected to be published in early 2027.<h4>Conclusions</h4>This NMA will provide comprehensive comparative evidence on the efficacy and acceptability of transdiagnostic psychotherapies for emotional disorders, which can inform clinical decision-making and guideline development.<h4>Trial registration</h4>OSF Registries osf.io/p8957; https://osf.io/p8957/overview.<h4>International registered report identifier (irrid)</h4>DERR1-10.2196/104791.",
       "is_paid_hint": false
     },
     {
@@ -2336,6 +2378,20 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": null,
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42656356",
+      "doi": "10.3389/fnhum.2026.1844429",
+      "title": "Yoga-based meditation improves self-regulation and well-being in medical students: a pilot study.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "<h4>Introduction</h4>Self-regulation enables students to effectively apply their metacognitive abilities to reach academic objectives and enhance their well-being, which is essential in academic high-pressure situations such as medical education. However, many medical students have difficulty managing their cognitive and emotional responses to continued academic pressure and the clinical demands placed upon them. Thus, it is important to identify methods that may support the self-regulatory abilities of medical students.<h4>Methods</h4>This study assessed whether participation in a yoga-based meditation program was associated with pre-to-post changes in cognitive and psychological indicators of self-regulation among medical students. The sample consisted of forty subjects who completed a series of self-report questionnaires assessing anxiety, stress, depression (DASS-21 and STAI), mindfulness (FFMQ), and overall mental health or psychological well-being (WEMWBS). In addition to completing the self-report measures, each subject's cognitive performance was measured before and after completion of the intervention program using three separate tasks: AOSPAN for working memory, a free recall task to measure episodic memory, and SART for sustained attention.<h4>Results</h4>Pre/post assessments revealed statistically significant decreases in reported levels of anxiety, stress, and depression. Conversely, there were statistically significant increases in reported levels of psychological well-being and global mindfulness meta-awareness. Following the intervention, cognitive task performance also changed. Specifically, we observed significant increases in working memory performance, immediate and delayed episodic memory, and response accuracy, together with response-time dynamics consistent with a more cautious response pattern.<h4>Discussion</h4>These results suggest that yoga-based meditation was associated with pre-to-post changes in cognitive and psychological indicators of self-regulation, although causal interpretation is limited by the single-group pilot design. Taken together, these findings support further investigation of meditation-based programs as low-cost and scalable approaches to support cognitive performance and overall well-being in demanding educational settings such as medical education.",
       "is_paid_hint": false
     },
     {
@@ -2439,20 +2495,6 @@
     {
       "source_db": "europepmc",
       "tab": "field",
-      "id": "EPMC:42535917",
-      "doi": "10.1177/13591053261470710",
-      "title": "A meta-analytic review of contextual-behavioral approaches via virtual reality in chronic physical illness: Where we are and where to go.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": false,
-      "oa_url": null,
-      "abstract": "This meta-analysis aimed to examine the efficacy of virtual reality (VR)-mediated contextual-behavioral interventions for improving mental health, quality of life, and functioning in adults with chronic physical illnesses (CPIs). Following PRISMA, 13 studies (<i>N</i>\u2009=\u2009563) were analyzed. Pre- to post-intervention results showed reductions in depression (SMD\u2009=\u2009-0.79), anxiety (SMD\u2009=\u2009-0.86), and improved functioning (SMD\u2009=\u2009-0.67; all <i>p</i>\u2009<\u2009.01). Although quality of life, stress, and distress improved, the effects were not statistically significant. Subgroup analyses were conducted to explore potential sources of heterogeneity across all outcomes. Comparisons between experimental and control groups (<i>k</i>\u2009=\u20092) suggested improvement in anxiety and quality of life (SMD\u2009=\u2009-0.41 and 0.55, respectively) but not for depression. Most interventions were mindfulness-based and uncontrolled designs. Findings tentatively suggest that VR-based mindfulness interventions help enhance psychological outcomes and functioning, but definite conclusions are unwarranted. Limitations and Future directions are discussed.",
-      "is_paid_hint": true
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
       "id": "EPMC:42804277",
       "doi": "10.2196/102331",
       "title": "Effectiveness and Safety of Virtual Reality Interventions for Symptom Management in Adults Undergoing Hemodialysis: Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
@@ -2467,6 +2509,20 @@
     {
       "source_db": "europepmc",
       "tab": "field",
+      "id": "EPMC:42535917",
+      "doi": "10.1177/13591053261470710",
+      "title": "A meta-analytic review of contextual-behavioral approaches via virtual reality in chronic physical illness: Where we are and where to go.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": false,
+      "oa_url": null,
+      "abstract": "This meta-analysis aimed to examine the efficacy of virtual reality (VR)-mediated contextual-behavioral interventions for improving mental health, quality of life, and functioning in adults with chronic physical illnesses (CPIs). Following PRISMA, 13 studies (<i>N</i>\u2009=\u2009563) were analyzed. Pre- to post-intervention results showed reductions in depression (SMD\u2009=\u2009-0.79), anxiety (SMD\u2009=\u2009-0.86), and improved functioning (SMD\u2009=\u2009-0.67; all <i>p</i>\u2009<\u2009.01). Although quality of life, stress, and distress improved, the effects were not statistically significant. Subgroup analyses were conducted to explore potential sources of heterogeneity across all outcomes. Comparisons between experimental and control groups (<i>k</i>\u2009=\u20092) suggested improvement in anxiety and quality of life (SMD\u2009=\u2009-0.41 and 0.55, respectively) but not for depression. Most interventions were mindfulness-based and uncontrolled designs. Findings tentatively suggest that VR-based mindfulness interventions help enhance psychological outcomes and functioning, but definite conclusions are unwarranted. Limitations and Future directions are discussed.",
+      "is_paid_hint": true
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
       "id": "EPMC:42718507",
       "doi": "10.3389/fpsyg.2026.1836930",
       "title": "Psychological trajectories following brief mindfulness training: a longitudinal comparison of active and passive controls.",
@@ -2476,20 +2532,6 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "<h4>Background</h4>Mindfulness-based interventions (MBIs) have been demonstrated to enhance emotional functioning, but little is known regarding the brief mindfulness training's effects on various psychological symptoms and positive psychological resources in the long term, especially when compared to both passive and active control conditions. This study aimed to examine the effects of brief mindfulness training on psychological symptoms compared with active and passive control conditions across three time points.<h4>Methods</h4>This study was designed as three-wave longitudinal, three-arm randomized controlled trial. (<i>N</i>\u202f=\u202f180) participants were randomly grouped into mindfulness training group (MG), breathing relaxation group (active control, ACG), and no-treatment control group (passive control, PCG). The psychological outcomes (anxiety, depression, state and trait mindfulness, attentional control, emotional intelligence, and psychological resilience) were determined at baseline (T1), post-intervention (T2), and 2\u202fweeks follow-up (T3). Psychological outcomes were assessed using validated self-report instruments, including the Self-Rating Anxiety Scale (SAS), Self-Rating Depression Scale (SDS), State Mindfulness Scale (SMS), Five Facet Mindfulness Questionnaire-Short Form (FFMQ-SF), Attentional Control Scale (ACS), Emotional Intelligence Scale (EIS), and Connor-Davidson Resilience Scale (CD-RISC). Repeated-measures ANOVAs were used to test Group\u202f\u00d7\u202fTime effects.<h4>Results</h4>There were no significant differences in baseline between groups. There was a significant Group\u202f\u00d7\u202fTime interaction in all the measured outcomes. The mindfulness group (MG) compared to both control groups had greater post-intervention anxiety and depression reductions and state and trait mindfulness, attentional control, emotional intelligence, and resilience increases. The ACG showed slight within-group changes but not better than the PCG.<h4>Conclusion</h4>Brief mindfulness training had specific, time-varying changes in psychological symptoms and positive psychological resources. These results suggest that mindfulness has more than a general relaxation or engagement effect, which demonstrates its effectiveness as an intervention that can redefine the psychological functioning by using dynamic, targeted attentional regulation processes.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:42103347",
-      "doi": "10.1136/bmjment-2025-302323",
-      "title": "Mental health in university students: an umbrella review grading the evidence for psychosocial interventions.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 1,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "<h4>Question</h4>Psychological distress is increasingly prevalent among university students, raising concerns about their mental health. This review aimed to assess the strength and credibility of evidence on the efficacy of psychosocial interventions for improving mental health in this population.<h4>Study selection and analysis</h4>We conducted an umbrella review of systematic reviews (SRs) with meta-analyses of randomised controlled trials assessing psychosocial interventions among university students. Searches were performed in Medline, PubMed, Cochrane Central, PsycINFO, CINAHL, Epistemonikos and Campbell Collaboration from 1 January 2014 to 1 February 2026. Data on intervention type, comparator, outcome and study-level effect sizes were analysed using inverse-variance random-effects models with restricted maximum likelihood estimation of between-study heterogeneity (\u03c4\u00b2). Strength of associations was evaluated according to umbrella review criteria, reporting quality using A MeaSurement Tool to Assess systematic Reviews 2 (AMSTAR-2) and certainty of evidence using Grading of Recommendations Assessment, Development and Evaluation (GRADE).<h4>Findings</h4>A total of 34 SRs were identified. After excluding overlapping syntheses, 28 unique meta-analyses from 12 SRs were included. Mindfulness-based interventions versus inactive controls for distress (standardised mean difference (SMD) -0.40; 95%\u2009CI -0.53 to -0.28) showed highly suggestive evidence (class II; GRADE: low; AMSTAR: high). Seven associations provided suggestive evidence (Class III): mindfulness-based interventions versus inactive controls for anxiety (SMD -0.54; 95%\u2009CI -0.81 to -0.27) and depression (SMD -0.52; 95%\u2009CI -0.65 to -0.39); cognitive-based interventions versus inactive controls for anxiety (SMD -0.48; 95%\u2009CI -0.62 to -0.34) and depression (SMD -0.60; 95%\u2009CI -0.75 to -0.45); cognitive-based interventions versus active controls for well-being (SMD -0.30; 95%\u2009CI -0.42 to -0.18); positive psychology interventions versus inactive controls for distress (SMD -0.22; 95%\u2009CI -0.35 to -0.10); and multimodal interventions versus inactive controls for distress (SMD -0.85; 95%\u2009CI -1.32 to -0.87). The remaining associations were weak or non-significant, generally supported by low or very low certainty and mostly low or very low reporting quality.<h4>Conclusions</h4>The most robust evidence emerged for mindfulness and cognitive-based interventions, with some support also for positive psychology approaches. These interventions appear to improve depression, anxiety, distress and well-being among university students, though further rigorous research is needed.<h4>Prospero registration number</h4>CRD42023493618.",
       "is_paid_hint": false
     },
     {
@@ -2523,6 +2565,20 @@
     {
       "source_db": "europepmc",
       "tab": "field",
+      "id": "EPMC:42103347",
+      "doi": "10.1136/bmjment-2025-302323",
+      "title": "Mental health in university students: an umbrella review grading the evidence for psychosocial interventions.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 1,
+      "is_oa": true,
+      "oa_url": null,
+      "abstract": "<h4>Question</h4>Psychological distress is increasingly prevalent among university students, raising concerns about their mental health. This review aimed to assess the strength and credibility of evidence on the efficacy of psychosocial interventions for improving mental health in this population.<h4>Study selection and analysis</h4>We conducted an umbrella review of systematic reviews (SRs) with meta-analyses of randomised controlled trials assessing psychosocial interventions among university students. Searches were performed in Medline, PubMed, Cochrane Central, PsycINFO, CINAHL, Epistemonikos and Campbell Collaboration from 1 January 2014 to 1 February 2026. Data on intervention type, comparator, outcome and study-level effect sizes were analysed using inverse-variance random-effects models with restricted maximum likelihood estimation of between-study heterogeneity (\u03c4\u00b2). Strength of associations was evaluated according to umbrella review criteria, reporting quality using A MeaSurement Tool to Assess systematic Reviews 2 (AMSTAR-2) and certainty of evidence using Grading of Recommendations Assessment, Development and Evaluation (GRADE).<h4>Findings</h4>A total of 34 SRs were identified. After excluding overlapping syntheses, 28 unique meta-analyses from 12 SRs were included. Mindfulness-based interventions versus inactive controls for distress (standardised mean difference (SMD) -0.40; 95%\u2009CI -0.53 to -0.28) showed highly suggestive evidence (class II; GRADE: low; AMSTAR: high). Seven associations provided suggestive evidence (Class III): mindfulness-based interventions versus inactive controls for anxiety (SMD -0.54; 95%\u2009CI -0.81 to -0.27) and depression (SMD -0.52; 95%\u2009CI -0.65 to -0.39); cognitive-based interventions versus inactive controls for anxiety (SMD -0.48; 95%\u2009CI -0.62 to -0.34) and depression (SMD -0.60; 95%\u2009CI -0.75 to -0.45); cognitive-based interventions versus active controls for well-being (SMD -0.30; 95%\u2009CI -0.42 to -0.18); positive psychology interventions versus inactive controls for distress (SMD -0.22; 95%\u2009CI -0.35 to -0.10); and multimodal interventions versus inactive controls for distress (SMD -0.85; 95%\u2009CI -1.32 to -0.87). The remaining associations were weak or non-significant, generally supported by low or very low certainty and mostly low or very low reporting quality.<h4>Conclusions</h4>The most robust evidence emerged for mindfulness and cognitive-based interventions, with some support also for positive psychology approaches. These interventions appear to improve depression, anxiety, distress and well-being among university students, though further rigorous research is needed.<h4>Prospero registration number</h4>CRD42023493618.",
+      "is_paid_hint": false
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
       "id": "EPMC:PMC13663974",
       "doi": null,
       "title": "The Effects of Physical and Mind\u2013Body Exercise on Anxiety Among Patients with Breast Cancer: A Systematic Review and Meta-Analysis of Controlled Trials",
@@ -2533,20 +2589,6 @@
       "oa_url": null,
       "abstract": null,
       "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:42837654",
-      "doi": "10.2196/104791",
-      "title": "Comparative Efficacy and Acceptability of Transdiagnostic Psychotherapies for Emotional Disorders: Protocol for a Network Meta-Analysis of Randomized Controlled Trials.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": false,
-      "oa_url": null,
-      "abstract": "<h4>Background</h4>Emotional disorders-primarily anxiety and unipolar depressive disorders-are highly prevalent, disabling, and frequently comorbid. Disorder\u2011specific cognitive behavioral therapy (DS\u2011CBT) is considered a gold standard treatment, yet it can be inefficient in the context of high comorbidity and service constraints. Transdiagnostic psychotherapies that target shared maintaining mechanisms (eg, emotion dysregulation and neuroticism) have been developed, including the Unified Protocol, transdiagnostic behavior therapy, emotion regulation therapy, and various transdiagnostic internet-delivered cognitive behavioral therapy protocols. Recent meta-analyses suggest that transdiagnostic interventions are effective or likely effective, but a comprehensive comparative evaluation across different transdiagnostic protocols, DS\u2011CBT, other evidence\u2011based psychotherapies, and control conditions is lacking.<h4>Objective</h4>This study aims to conduct a network meta-analysis (NMA) to compare the efficacy and acceptability of various transdiagnostic therapies (eg, the Unified Protocol, transdiagnostic behavior therapy, and emotion regulation therapy), DS-CBT, other evidence-based active therapies (eg, acceptance and commitment therapy, behavioral activation, and mindfulness-based cognitive therapy), and control conditions (waitlist or care as usual) in improving symptoms in adults with anxiety and/or depressive disorders and generate a probabilistic ranking of their efficacy.<h4>Methods</h4>This meta-analysis will include randomized controlled trials from PubMed, Embase, PsycInfo, and the Cochrane Library, complemented by existing meta\u2011analytic research domain databases for depression and anxiety. Eligible participants are adults (\u226518 years) with a principal diagnosis of anxiety and/or unipolar depressive disorder according to established diagnostic classification systems (eg, any version of the Diagnostic and Statistical Manual of Mental Disorders or International Classification of Diseases, 10th or 11th revisions) or scoring above a validated cutoff on anxiety or depression scales. Primary outcomes are continuous measures of anxiety and depressive symptom severity at the posttreatment time point; secondary outcomes include study dropout (acceptability) and response or remission where available. We will perform random-effects network meta-analyses within a frequentist framework using the netmeta package in R to estimate relative treatment effects and P scores for treatment rankings and examine transitivity and consistency. We will conduct additional Bayesian NMAs as sensitivity analyses using the surface under the cumulative ranking curve for ranking.<h4>Results</h4>As of September 2026, the literature search has been completed, and title and abstract screening is ongoing. Data analysis will be conducted in late 2026. We expect the meta-analysis to be completed and submitted for publication by the end of 2026, with results expected to be published in early 2027.<h4>Conclusions</h4>This NMA will provide comprehensive comparative evidence on the efficacy and acceptability of transdiagnostic psychotherapies for emotional disorders, which can inform clinical decision-making and guideline development.<h4>Trial registration</h4>OSF Registries osf.io/p8957; https://osf.io/p8957/overview.<h4>International registered report identifier (irrid)</h4>DERR1-10.2196/104791.",
-      "is_paid_hint": true
     },
     {
       "source_db": "europepmc",
@@ -2574,6 +2616,20 @@
       "is_oa": false,
       "oa_url": null,
       "abstract": "This meta-review provides a high-level perspective of the research evidence on mindfulness interventions for parents and families. It summarizes conceptual and methodological features, examines intervention approaches, intervention effects, and identifies moderators and mediators of these effects. <b>S</b>earches were conducted across eight databases to identify systematic reviews of mindfulness-based or mindfulness-integrated interventions with parents. Review overlap was quantified, and methodological quality was assessed. Quantitative information (e.g. sample sizes, study designs, effect sizes) and qualitative information (e.g., conceptualizations, intervention approach) were extracted. Primary studies were categorized based on intervention approach classifications. Eighteen systematic reviews, including ten meta-analyses, were identified, encompassing 119 unique primary studies. The collective evidence suggests that mindfulness-based programs are a promising approach for reducing parenting stress. In contrast, findings were inconclusive for parents' general stress, mental health, well-being, trait mindfulness, mindful parenting, parenting behaviors, and child mental health. Reviews showed acceptable methodological quality and moderate overlap in primary studies. Variations in study designs, samples, intervention approaches, dosage, and analytic methods contributed to inconclusive findings. The reviews of mindfulness-based and mindfulness-integrated programs revealed a mix of intervention approach categories and inconsistencies in conceptualizations and operationalizations. The evidence on moderators of intervention effects was inconclusive. Parenting stress appeared to be a mediator of the intervention's effects on youth outcomes. The literature offers encouraging results as well as limitations of the extant research. Future research should clarify conceptualizations of intervention approaches, investigate mediators and moderators, and improve rigor. Implications for clinicians using mindfulness with parents are also discussed.",
+      "is_paid_hint": true
+    },
+    {
+      "source_db": "europepmc",
+      "tab": "field",
+      "id": "EPMC:42901772",
+      "doi": "10.1080/07347332.2026.2747658",
+      "title": "A systematic review and meta-analysis of multi-health behavior interventions to reduce common mental health symptoms in people living with and beyond cancer.",
+      "year": 2026,
+      "venue": null,
+      "cited_by": 0,
+      "is_oa": false,
+      "oa_url": null,
+      "abstract": "<h4>Background</h4>People living with and beyond cancer often report lower levels of physical activity, poorer sleep, and poorer diet quality, all of which may contribute to an increased risk of common mental health symptoms. This systematic review aimed to investigate the effects of multi-health behavior interventions designed to reduce common mental health symptoms in people living with and beyond cancer.<h4>Methods</h4>This systematic review and meta-analyses followed PRISMA guidelines. The search, conducted up to July 2, 2025, included PubMed, Embase, Web of Science, PsycInfo, and PsyAPA, and grey literature. Multi-health behavior interventions (randomized and non-randomized trials) for people living with and beyond cancer, that targeted at least two behaviors (physical activity, diet, sleep, mindfulness) and assessed effects on common mental health outcomes (depression, anxiety, stress) were included.<h4>Results</h4>A total of 22 studies (<i>n</i>\u2009=\u20092,191 participants, 77.5% female; mean age 55\u2009years) were included. Multi-health behavior interventions demonstrated small but significant improvements in depression (<i>g</i>\u2009=\u20090.40, 95% CI [0.26,0.55], <i>p</i>\u2009<\u20090.001), anxiety (<i>g</i>\u2009=\u20090.33, 95% CI [0.22,0.45], <i>p</i>\u2009<\u20090.001), and stress (<i>g</i>\u2009=\u20090.26, 95% CI [0.09,0.43], <i>p</i>\u2009=\u20090.003). Effects were consistent across treatment phases, cancer types, intervention type (flexible interventions and structured programs), number of intervention components, and intervention duration, with all subgroups showing significant improvements in at least one mental health outcome.<h4>Conclusion</h4>Multi-health behavior interventions are associated with small but significant improvements in common mental health symptoms among people living with and beyond cancer. However, given the limitations and variable certainty of the available evidence, further high-quality RCTs are needed to confirm these findings.",
       "is_paid_hint": true
     },
     {
@@ -2616,62 +2672,6 @@
       "is_oa": true,
       "oa_url": null,
       "abstract": "During the gestational period, pregnant women commonly experience negative emotional states including anxiety, depression, and childbirth fear, which are induced by dramatic physiological and psychological changes. These negative emotional disturbances not only damage maternal physical and mental health, but also may increase the risk of adverse fetal outcomes and long-term developmental abnormalities in offspring. Internet-based cognitive behavioral therapy (ICBT) is a psychological intervention modality developed on the basis of cognitive behavioral theory and delivered through network platforms. In recent years, ICBT has received extensive attention in the intervention of negative emotions among pregnant women. Its main advantages include breaking through temporal and spatial constraints, reducing intervention costs, and improving the accessibility of psychological services. Therefore, this paper systematically reviews the conceptual connotation and core components of ICBT, and analyzes its application effects in the intervention of anxiety, depression, and childbirth fear among pregnant women, aiming to provide a reference for subsequent related research and clinical practice of ICBT in this population.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:PMC13646942",
-      "doi": null,
-      "title": "A proposed anxiety\u2013hypertonic pelvic floor axis in postpartum women: a narrative review of mechanistic links and rehabilitation implications",
-      "year": null,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": null,
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:42652393",
-      "doi": "10.3390/ijerph23081078",
-      "title": "The Applicability of Forest Therapy for Socially Isolated Young Adults: Parallel Changes in Psychological Distress and Mindfulness.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "This study examined the applicability of forest therapy in alleviating psychological distress among socially isolated young adults, with a particular focus on their associations with the mindfulness. A total of 159 socially isolated young adults were recruited from the community and participated in a two-day, one-night forest therapy program. Psychological distress (depression, anxiety, loneliness, and stress) and mindfulness were assessed before and after the program. Multilevel analyses were conducted to examine changes in psychological distress and mindfulness following participation, as well as whether the five mindfulness subcomponents (nonreactivity, observing, acting with awareness, describing, and non-judging) were associated with individual differences in changes in these outcomes. The results indicated reductions in depression, anxiety, stress, and loneliness, along with an increase in overall mindfulness after the program. Among the mindfulness subcomponents, reductions in psychological distress over time occurred most closely in parallel with changes in nonreactivity, non-judging, and acting with awareness, whereas the parallel was weaker for describing and observing. These findings suggest that forest therapy may be a promising intervention for reducing psychological distress among socially isolated young adults, and that incorporating activities designed to cultivate mindfulness skills-particularly nonreactivity, non-judging, and awareness-could further enhance its mental health benefits. As this study did not include a control group, randomized controlled trials are needed to confirm these effects.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:42768896",
-      "doi": "10.1002/brb3.71556",
-      "title": "Sleep-Wake Disturbances in Pediatric Traumatic Brain Injury: A Systematic Review and Meta-Analysis of Interventions.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "<h4>Background</h4>Sleep-wake disturbances (SWD) are frequent and persistent complications following pediatric traumatic brain injury (TBI), negatively affecting cognitive, emotional, and academic outcomes. This systematic review and meta-analysis aimed to evaluate the effectiveness of behavioral, pharmacological, and emerging interventions for SWD in children and adolescents with mild to severe TBI and examined related sleep outcomes and functional measures.<h4>Method</h4>Following PRISMA guidelines, a systematic search was conducted across PubMed, Web of Science, and ScienceDirect for studies published between 1998 and 2025. Nineteen studies (N = 1113) met inclusion criteria, encompassing cognitive behavioral therapy for insomnia (CBT-I), sleep hygiene, mindfulness, pharmacological treatments (melatonin, branched-chain amino acids), physical activity, and family-based interventions. Meta-analytic models using random effects were employed to calculate pooled standardized mean differences and mean raw scores across sleep, cognitive, and quality-of-life outcomes.<h4>Results</h4>CBT-I demonstrated efficacy in reducing persistent post-concussion symptoms and improving subjective sleep outcomes, although heterogeneity varied across outcomes. In contrast, melatonin did not produce statistically significant pooled effects on persistent post-concussion symptoms or cognitive outcomes, and treatment effects varied across dosage groups. Few studies examined mindfulness or educational outcomes, revealing key research gaps. Discrepancies between objective (actigraphy) and subjective (self-report) measures emphasized the need for multi-method sleep assessment.<h4>Conclusion</h4>CBT-I is the most consistently effective intervention for sleep problems following pediatric TBI. Melatonin showed mixed and nonsignificant pooled effects, indicating that its role in pediatric TBI recovery requires further investigation. Future research should focus on personalized, multidisciplinary treatment models integrating behavioral, pharmacological, and rehabilitative approaches to optimize long-term neurocognitive and educational outcomes.",
-      "is_paid_hint": false
-    },
-    {
-      "source_db": "europepmc",
-      "tab": "field",
-      "id": "EPMC:42512159",
-      "doi": "10.3390/ijerph23070853",
-      "title": "Effectiveness of an Online Mindfulness-Based Intervention for Improving Mental Health in Undergraduate Students: A Randomized Clinical Trial.",
-      "year": 2026,
-      "venue": null,
-      "cited_by": 0,
-      "is_oa": true,
-      "oa_url": null,
-      "abstract": "This randomized clinical trial evaluated the effectiveness of an online mindfulness-based intervention in improving positive mental health and reducing symptoms of anxiety and depression among undergraduate students, in the context of rising global mental health challenges and limited access to care, particularly in low- and middle-income settings. Brazilian undergraduate pedagogy students enrolled in distance education were randomly assigned (1:1) to an eight-week Mindfulness-Based Program for Undergraduate Students or a control group. Primary outcomes included positive mental health, anxiety, and depression, while secondary outcomes were sense of coherence, resilience, mindfulness, and perceived stress. Analyses followed the intention-to-treat principle. A total of 317 students were randomly allocated to the intervention group (<i>n</i> = 157) or the control group (<i>n</i> = 160), and 215 (67.8%) completed the study, with comparable baseline characteristics across groups. Compared with controls, the intervention significantly improved positive mental health and reduced anxiety and depression (all <i>p</i> < 0.001), while also increasing sense of coherence, resilience, and mindfulness and reducing perceived stress (all <i>p</i> < 0.05). These findings suggest that scalable, low-cost, online mindfulness interventions can simultaneously enhance positive mental health and reduce psychological distress, supporting their potential as preventive mental health strategies in higher education settings.",
       "is_paid_hint": false
     }
   ]
