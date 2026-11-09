@@ -14,7 +14,7 @@
   },
   "publication_bias_egger": {
     "intercept": 2.7400969266695725,
-    "p": 0.5810063449705161,
+    "p": 0.5810063449705162,
     "interpretation": "No strong evidence of funnel asymmetry"
   },
   "year_moderator": {
